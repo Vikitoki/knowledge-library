@@ -8,6 +8,6 @@
 
 ## React
 
-* [Кастомные хуки](01_good-rools-for-code.md)
+* [Кастомные хуки](react/custom-hooks.md)
 
 ## Дополнительная информация
