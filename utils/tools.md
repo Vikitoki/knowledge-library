@@ -4,14 +4,10 @@
 
 1. Инструмент динамического адаптива: (https://github.com/FreelancerLifeStyle/dynamic_adapt)
 
----
-
 ## GIT
 
 1. Шпаргалка с основными командами для Git: (https://agladky.ru/blog/git-cheat-sheet/)
 2. GitIgnore генератор: (https://www.toptal.com/developers/gitignore)
-
----
 
 ## HTML
 
@@ -46,14 +42,10 @@
 3. Squoosh - лучший сервис для оптимизации изображений: (https://squoosh.app/)
 4. Google page speed: (https://developers.google.com/speed/pagespeed/insights/?hl=ru)
 
----
-
 ## CSS
 
 1. WebGradients - бесплатная коллекция из 180 линейных градиентов: (https://webgradients.com/)
 2. BoxShadow - сервис для создание теней: (https://html-css-js.com/css/generator/box-shadow/)
-
----
 
 ## React
 
@@ -128,14 +120,10 @@
 7. Semantic UI React - инструмент для отображения семантики UI React: (https://react.semantic-ui.com/)
 8. Preact - облегчённая и усовершенствованная версия React: (https://preactjs.com/)
 
----
-
 ## NodeJS
 
 1. Soket IO - библиотека для работы с WS: (https://socket.io/#examples)
 2. Express Js - минималистичный веб-фреймворк для приложений: (https://expressjs.com/ru/)
-
----
 
 ## NPM
 
