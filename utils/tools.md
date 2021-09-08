@@ -127,7 +127,7 @@
 
 ## NPM
 
-## Поиск пакетов
+### Поиск пакетов
 
 1. Cdnjs: (https://cdnjs.com/libraries)
 2. Bundlephobia - поиск npm пакетов с демонстрацией альтернативных решений: (https://bundlephobia.com/)
