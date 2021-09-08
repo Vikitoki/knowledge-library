@@ -78,22 +78,22 @@
 2. React-Bootstrap: (https://github.com/react-bootstrap/react-bootstrap)
 3. Reactstrap: (https://github.com/reactstrap/reactstrap)
 
-## Роутеры
+### Роутеры
 
 1. React router dom: (https://reactrouter.com/web/guides/quick-start)
 
-## Библиотеки для работы с формами
+### Библиотеки для работы с формами
 
 1. Formik: (https://formik.org/) + валидатор Yup: (https://github.com/jquense/yup)
 2. React Hook Form: (https://react-hook-form.com/get-started/)
 3. React skeleton: (https://skeletonreact.com/)
 
-## Библиотеки для работы с UI
+### Библиотеки для работы с UI
 
 1. React select: (https://react-select.com/home)
 2. React datepicker: (https://reactdatepicker.com/)
 
-## Библиотеки для работы с графиками
+### Библиотеки для работы с графиками
 
 1. Nivo: (https://github.com/plouc/nivo)
 2. Vis: (https://github.com/uber/react-vis)
@@ -103,7 +103,7 @@
 1. React Developer Tools: (https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=ru)
 2. Redux Dev Tools: (https://github.com/reduxjs/redux-devtools)
 
-## Документации
+### Документации
 
 1. React documentation: (https://reactjs.org/docs/getting-started.html)
 2. React Bits: (https://vasanthk.gitbooks.io/react-bits/)
