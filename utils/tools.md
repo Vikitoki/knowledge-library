@@ -4,14 +4,11 @@
 
 1. Инструмент динамического адаптива: (https://github.com/FreelancerLifeStyle/dynamic_adapt)
 
----
-
 ## GIT
 
 1. Шпаргалка с основными командами для Git: (https://agladky.ru/blog/git-cheat-sheet/)
 2. GitIgnore генератор: (https://www.toptal.com/developers/gitignore)
-
----
+3. Как установить SSH ключ: (https://confluence.atlassian.com/bitbucketserver/creating-ssh-keys-776639788.html)
 
 ## HTML
 
@@ -35,7 +32,7 @@
 
 1. Swiper - cовременный мобильный сенсорный слайдер: (https://swiperjs.com/)
 
-### Достуаность
+### Доступность
 
 1. Руководство студии Артёма Лебедева: (https://guide.so-edinenie.org/rules)
 
@@ -45,15 +42,17 @@
 2. W3C валидатор: (https://validator.w3.org/#validate_by_uri)
 3. Squoosh - лучший сервис для оптимизации изображений: (https://squoosh.app/)
 4. Google page speed: (https://developers.google.com/speed/pagespeed/insights/?hl=ru)
-
----
+5. Методология БЭМ: (https://ru.bem.info/methodology/css/#%D0%9C%D0%BE%D0%B4%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D0%BE%D1%80%D1%8B)
 
 ## CSS
 
 1. WebGradients - бесплатная коллекция из 180 линейных градиентов: (https://webgradients.com/)
 2. BoxShadow - сервис для создание теней: (https://html-css-js.com/css/generator/box-shadow/)
+3. Расчёт свойства clip-path, для создания фигур разной формы (https://bennettfeely.com/clippy/)
 
----
+### Документация
+
+1. Гайд по препроцессору SCSS (https://medium.com/nuances-of-programming/%D0%BF%D0%BE%D0%BB%D0%BD%D1%8B%D0%B9-%D0%B3%D0%B0%D0%B9%D0%B4-%D0%BF%D0%BE-scss-sass-b09ae0c87afe)
 
 ## React
 
@@ -102,6 +101,7 @@
 
 1. React Developer Tools: (https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=ru)
 2. Redux Dev Tools: (https://github.com/reduxjs/redux-devtools)
+3. Analyzer runtime performance : (https://developer.chrome.com/docs/devtools/evaluate-performance/)
 
 ## Документации
 
@@ -128,14 +128,10 @@
 7. Semantic UI React - инструмент для отображения семантики UI React: (https://react.semantic-ui.com/)
 8. Preact - облегчённая и усовершенствованная версия React: (https://preactjs.com/)
 
----
-
 ## NodeJS
 
 1. Soket IO - библиотека для работы с WS: (https://socket.io/#examples)
 2. Express Js - минималистичный веб-фреймворк для приложений: (https://expressjs.com/ru/)
-
----
 
 ## NPM
 
@@ -162,7 +158,12 @@
 4. Uuid - библиотека для создания уникального id: (https://www.npmjs.com/package/uuid)
 5. Json Server - развёртывания сервера, использующего fake REST API с нулевым кодированием: (https://www.npmjs.com/package/json-server)
 6. Concurrently - одновременное выполнение нескольких команд в скриптах манифестов:(https://www.npmjs.com/package/concurrently)
+7. JavaScript Cookie - простой и легкий JavaScript API для обработки файлов cookie: (https://www.npmjs.com/package/js-cookie)
 
 #### Express
 
 1. Express-validator - валидирует данные на серверной стороне: (https://www.npmjs.com/package/express-validator)
+
+### Прочее
+
+1. Как установить версию js для нескольких узлов на одном компьютере: (https://www.loginradius.com/blog/async/run-multiple-nodejs-version-on-the-same-machine/)
