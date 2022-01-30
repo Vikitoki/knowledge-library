@@ -43,6 +43,7 @@
 3. Squoosh - лучший сервис для оптимизации изображений: (https://squoosh.app/)
 4. Google page speed: (https://developers.google.com/speed/pagespeed/insights/?hl=ru)
 5. Методология БЭМ: (https://ru.bem.info/methodology/css/#%D0%9C%D0%BE%D0%B4%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D0%BE%D1%80%D1%8B)
+6. URL-encoder for SVG, для вставки закодированного изображения в CSS (ну мало ли): (https://yoksel.github.io/url-encoder/)
 
 ## CSS
 

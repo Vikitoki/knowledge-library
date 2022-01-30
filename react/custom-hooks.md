@@ -1,4 +1,4 @@
-## **Хуки**
+## Custom hooks
 
 ### Сортировка и поиск элементов
 
@@ -104,7 +104,7 @@ export const useObserver = (ref, canLoad, isLoading, callback) => {
 
 - cleanUp - данный аргумент введён для правильной логики взаимодействия с компонентами, которые могут быть размонтированы на странице по тем или иным причинам. Если ваш компонент может быть размонтирован, установите флаг в значение true
 
-````javascript
+```javascript
 import { useRef, useEffect } from "react";
 
 export default function useDebouncedFunction(func, delay, cleanUp = false) {
@@ -124,6 +124,6 @@ export default function useDebouncedFunction(func, delay, cleanUp = false) {
     timeoutRef.current = setTimeout(() => func(...args), delay);
   };
 }
-````
+```
 
 ---
