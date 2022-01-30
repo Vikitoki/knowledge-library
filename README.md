@@ -6,3 +6,4 @@
 - [HTML](html/index.md)
 - [CSS](css/index.md)
 - [JS](js/index.md)
+- [Решения на стыке технологий](js/index.md)
