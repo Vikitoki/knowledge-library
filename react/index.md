@@ -1,3 +1,3 @@
 # Оглавление React
 
-- [Custom hooks](code-style/custom-hooks.md)
+- [Custom hooks](./custom-hooks.md)

@@ -1,3 +1,3 @@
 # Оглавление HTML
 
-- [Готовые решения](html/ready-solutions.md)
+- [Готовые решения](./ready-solutions.md)
