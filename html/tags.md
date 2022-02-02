@@ -380,12 +380,12 @@
 
 Тег используется, когда для разных устройств или вариантов отображения нам нужны разные картинки. Внутри тега обязательно должен находиться тег `<img>`, и опционально — теги `<source>`. Пример:
 
-    ```html
-    <picture>
-      <source srcset="320.jpg" media="(max-width: 800px)" />
-      <img src="640.jpg" alt="Абстрактное изображение" />
-    </picture>
-    ```
+```html
+<picture>
+  <source srcset="320.jpg" media="(max-width: 800px)" />
+  <img src="640.jpg" alt="Абстрактное изображение" />
+</picture>
+```
 
 - Если медиавыражение не сработало, то браузер не загружает для него изображение. Так что можно не экономить и писать столько условий, сколько нужно.
 
@@ -455,14 +455,14 @@
 
 Использование атрибутов srcset и sizes отлично работает и просто в теге `<img>`, а теги `<source>` чаще всего используются совместно с атрибутом type. Подготовка и указание изображений, видео или аудио различных типов помогает браузеру выбрать наиболее эффективный поддерживаемый формат. Пример:
 
-    ```html
-    <picture>
-      <source type="image/avif" srcset="photo.avif" />
-      <source type="image/webp" srcset="photo.webp" />
-      <source type="image/jpeg" srcset="photo.jpg" />
-      <img src="photo.jpg" alt="Тестовая картинка" />
-    </picture>
-    ```
+```html
+<picture>
+  <source type="image/avif" srcset="photo.avif" />
+  <source type="image/webp" srcset="photo.webp" />
+  <source type="image/jpeg" srcset="photo.jpg" />
+  <img src="photo.jpg" alt="Тестовая картинка" />
+</picture>
+```
 
 ### SVG
 
