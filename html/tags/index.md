@@ -9,3 +9,4 @@
 - [Картинки](./pictures.md)
 - [Ссылки](./links.md)
 - [Списки](./lists.md)
+- [Интерактив](./interactive.md)
