@@ -59,13 +59,13 @@ const shouldErrorComponentRender = boolean | string | TDictionaryMenu | null;
 
 Неправильно:
 
-    ```javascript
-    const shouldErrorComponentRender = false | "абракадабра" | futureConfig;
-    ```
+```javascript
+const shouldErrorComponentRender = false | "абракадабра" | futureConfig;
+```
 
 Правильно:
 
-    ```javascript
-    const shouldErrorComponentRender =
-      false | Boolean("абракадабра") | Boolean(futureConfig);
-    ```
+```javascript
+const shouldErrorComponentRender =
+  false | Boolean("абракадабра") | Boolean(futureConfig);
+```
