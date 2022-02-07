@@ -8,3 +8,4 @@
 6. [Чек-лист для ревьюера](./review-check-list.md)
 7. [Тестирование](./testing.md)
 8. [Установка и обновления npm пакетов](./update-packages.md)
+8. [Typescript](./typescript.md)
