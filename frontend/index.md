@@ -1,0 +1,15 @@
+# Оглавление Фронтенд стандарты
+
+- [Общее](./ready-solutions.md)
+- [Code style](./tags/index.md)
+- [UI Soft Pack](./tags/index.md)
+- [Responsive](./tags/index.md)
+- [Layout](./tags/index.md)
+- [Hover & Animations](./tags/index.md)
+- [Media](./tags/index.md)
+- [Fonts](./tags/index.md)
+- [Фабрика компонентов](./tags/index.md)
+- [Микрочанки](./tags/index.md)
+- [Magic](./tags/index.md)
+- [SVG](./tags/index.md)
+- [Accessibility](./tags/index.md)
