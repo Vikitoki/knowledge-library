@@ -25,18 +25,20 @@
 В своей работе старайтесь делать анимацию стилей для наведения по принципу «появляется быстро, пропадает медленно». 
 Это позволяет пользователю быстро увидеть реакцию на свои действия и не дожидаться окончания анимации.
 
-```css
+```scss
 .link {
   color: #ffffff;
   text-decoration-color: #2E9AFF;
   /* Скорость исчезновения фонового цвета */
   transition: background-color 0.5s linear;
-}
 
-.link:hover {
-  background-color: #2E9AFF;
-  /* Скорость изменения фонового цвета на голубой */
-  transition: background-color 0.1s linear;
+  @media (min-width: $big-tablet-window-width){
+    &:hover {
+      background-color: #2E9AFF;
+      /* Скорость изменения фонового цвета на голубой */
+      transition: background-color 0.1s linear;
+    }
+  }
 }
 ```
 
@@ -44,6 +46,7 @@
 
 ```js
 export const DEFAULT_ELEMENT_DELAY = '0.1s';
+export const MEDIUM_ELEMENT_DELAY = '0.3s';
 export const LONG_ELEMENT_DELAY = '0.5s';
 ```
 
