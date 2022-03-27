@@ -1,8 +1,8 @@
 # Оглавление Фронтенд стандарты
 
-- [Общее](./ready-solutions.md)
-- [Code style](./tags/index.md)
-- [UI Soft Pack](./tags/index.md)
+- [Общее](./common.md)
+- [Code style](./code-style.md)
+- [UI Soft Pack](./ui-soft-pack.md)
 - [Responsive](./tags/index.md)
 - [Layout](./tags/index.md)
 - [Hover & Animations](./tags/index.md)
