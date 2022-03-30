@@ -1,15 +1,9 @@
-# Оглавление Фронтенд стандарты
+# Фронтенд стандарты
 
-- [Общее](./common.md)
-- [Code style](./code-style.md)
-- [UI Soft Pack](./ui-soft-pack.md)
-- [Responsive](./tags/index.md)
-- [Layout](./tags/index.md)
-- [Hover & Animations](./tags/index.md)
-- [Media](./tags/index.md)
-- [Fonts](./tags/index.md)
-- [Фабрика компонентов](./tags/index.md)
-- [Микрочанки](./tags/index.md)
-- [Magic](./tags/index.md)
-- [SVG](./tags/index.md)
-- [Accessibility](./tags/index.md)
+- [Ценности](values/index.md)
+- [Общее](common/index.md)
+- [Инструменты разработки](development-tools/index.md)
+- [Метрики](metrics/index.md)
+- [HTML](frontend-standarts/html/index.md)
+- [CSS](frontend-standarts/css/index.md)
+- [JS](frontend-standarts/js/index.md)

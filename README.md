@@ -4,7 +4,4 @@
 - [Инструметы разработчика](tools/index.md)
 - [Фронтенд стандарты](frontend-standarts/index.md)
 - [React](react/index.md)
-- [HTML](html/index.md)
-- [CSS](css/index.md)
-- [JS](js/index.md)
 - [Полезные ссылки](links/index.md)

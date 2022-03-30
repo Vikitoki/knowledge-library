@@ -1,4 +1,4 @@
-## Responsive
+## Отзывчивая вёрстка
 
 ### Какие медиа выражения мы поддерживаем?
 
@@ -47,15 +47,15 @@
 
 **Desktop design:**
 
-![2](./images/desktop-design.png)
+![2](images/desktop-design.png)
 
 **Tablet design:**
 
-![](./images/tablet-design.png)
+![](images/tablet-design.png)
 
 **Mobile design:**
 
-![](./images/mobile-design.png)
+![](images/mobile-design.png)
 
 ### Breakpoints
 
