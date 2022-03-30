@@ -1,4 +1,4 @@
-# Оглавление CSS
+# CSS
 
 - [Готовые решения](ready-solutions/index.md)
 - [Отзывчивая вёрстка](responsive/index.md)

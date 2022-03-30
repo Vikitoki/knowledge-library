@@ -1,11 +1,10 @@
-
-## **SOLID**
+# SOLID
 
 ---
 
-### Single responsibility principle
+## Single responsibility principle
 
-👎**Bad:**
+👎**Плохо:**
 
 ```javascript
 class Auto {
@@ -19,7 +18,7 @@ class Auto {
 }
 ```
 
-👍**Good:**
+👍**Хорошо:**
 ```javascript
 class Auto {
 	constructor(model: string) { }
@@ -38,9 +37,11 @@ class AutoDB {
 }
 ```
 
-### Open/closed principle
+---
 
-👎**Bad:**
+## Open/closed principle
+
+👎**Плохо:**
 
 ```javascript
 class Auto {
@@ -66,7 +67,7 @@ const getPrice = (auto: Array<Auto>): string | void => {
 getPrice(shop);
 ```
 
-👍**Good:**
+👍**Хорошо:**
 ```javascript
 abstract class CarPrice {
 	abstract getPrice(): string;
@@ -105,9 +106,11 @@ const getPrice = (auto: Array<CarPrice>): string | void => {
 getPrice(shop);
 ```
 
-### Liskov substitution principle
+---
 
-👎**Bad:**
+## Liskov substitution principle
+
+👎**Плохо:**
 
 ```javascript
 class Rectangle {
@@ -146,7 +149,7 @@ class Square extends Rectangle {
 }
 ```
 
-👍**Good:**
+👍**Хорошо:**
 ```javascript
 interface Figure {
 	setWidth(width: number): void;
@@ -167,9 +170,11 @@ class Square implements Figure {
 }
 ```
 
-### Interface segregation principle
+---
 
-👎**Bad:**
+## Interface segregation principle
+
+👎**Плохо:**
 
 ```javascript
 interface AutoSet {
@@ -197,7 +202,7 @@ class Bmw implements AutoSet {
 }
 ```
 
-👍**Good:**
+👍**Хорошо:**
 ```javascript
 interface TeslaSet {
 	getTeslaSet(): any;
@@ -224,9 +229,11 @@ class Bmw implements BmwSet {
 }
 ```
 
-### Dependency inversion principle
+---
 
-👎**Bad:**
+## Dependency inversion principle
+
+👎**Плохо:**
 
 ```javascript
 class xmlHttpRequestService { }
@@ -250,7 +257,7 @@ class Http {
 }
 ```
 
-👍**Good:**
+👍**Хорошо:**
 ```javascript
 class xmlHttpRequestService {
 	open() { }

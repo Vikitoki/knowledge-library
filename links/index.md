@@ -3,7 +3,7 @@
 ## HTML / CSS
 
 1. Здесь можно найти очень много решений классических и часто встречающихся в вёрстке задач: (https://html5css.ru/howto/default.php)
-2. Стилизация кроссбраузерных вводимых диапазонов с помощью CSS: (https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/)
+2. Стилизация кросс браузерных вводимых диапазонов с помощью CSS: (https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/)
 3. Маски ввода номеров телефона: (https://smartlanding.biz/maski-vvoda-telefona.html)
 
 ## JS

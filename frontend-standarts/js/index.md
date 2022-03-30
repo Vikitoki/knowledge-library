@@ -1,4 +1,3 @@
-# Оглавление JS
+# Java Script
 
-- [Практики написания JS](practice.md)
-- [Принципы SOLID в ООП](solid.md)
+- [Code style](code-style/index.md)
