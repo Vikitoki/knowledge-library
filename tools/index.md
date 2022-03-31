@@ -1,170 +1,207 @@
 # Инструменты для разработки
 
+---
+
+## Лучшие материалы
+
+1. MDN: (https://developer.mozilla.org/ru/)
+2. Дока: (https://doka.guide/)
+3. Гуру рефакторига: (https://refactoring.guru/ru)
+4. Актуальное освещение технологий WEB: (https://2021.stateofjs.com/ru-RU/)
+5. Bundlephobia - поиск npm пакетов с демонстрацией альтернативных решений: (https://bundlephobia.com/)
+6. Openbase - cравните пакеты с открытым исходным кодом с мощными показателями и отзывами пользователей: (https://openbase.com/)
+
 ## JS
+
+### Кастомные решения
 
 1. Инструмент динамического адаптива: (https://github.com/FreelancerLifeStyle/dynamic_adapt)
 
-## GIT
-
-1. Шпаргалка с основными командами для Git: (https://agladky.ru/blog/git-cheat-sheet/)
-2. GitIgnore генератор: (https://www.toptal.com/developers/gitignore)
-3. Как установить SSH ключ: (https://confluence.atlassian.com/bitbucketserver/creating-ssh-keys-776639788.html)
-
-## HTML
-
-### Cервисы c изображениями, картинками , иконками , видео
-
-1. Flaticon: (https://www.flaticon.com/)
-2. Unsplash: (https://unsplash.com/)
-3. Coverr: (https://coverr.co/)
-
-### Сервисы со шрифтами
-
-1. WebFonts.pro: (https://webfonts.pro/)
-2. NoMail: (https://nomail.com.ua/)
-3. NoMail: (https://nomail.com.ua/)
-
-### Конвертаторы шрифтов в разные форматы
-
-1. Font2Web: (https://www.font2web.com/)
-
-### Слайдеры
+### Повседневные решения
 
 1. Swiper - cовременный мобильный сенсорный слайдер: (https://swiperjs.com/)
+2. Regex101 - площадка для тестирования Reg exp выражений (https://regex101.com/)
+
+### Интересные библиотеки:
+
+1. Webpack Bundle Analyzer - графическое решение для отслеживания размера зависимостей Webpack: 
+(https://github.com/webpack-contrib/webpack-bundle-analyzer/)
+
+---
+
+## HTML
 
 ### Доступность
 
 1. Руководство студии Артёма Лебедева: (https://guide.so-edinenie.org/rules)
 
-### Прочее
+### Повседневные решения
 
-1. Placeholder.com - бесплатный сервис-заполнитель изображений: (https://placeholder.com/)
+1. Placeholder - заглушка для картинок (https://placeholder.com/)
 2. W3C валидатор: (https://validator.w3.org/#validate_by_uri)
-3. Squoosh - лучший сервис для оптимизации изображений: (https://squoosh.app/)
-4. Google page speed: (https://developers.google.com/speed/pagespeed/insights/?hl=ru)
-5. Методология БЭМ: (https://ru.bem.info/methodology/css/#%D0%9C%D0%BE%D0%B4%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D0%BE%D1%80%D1%8B)
-6. URL-encoder for SVG, для вставки закодированного изображения в CSS (ну мало ли): (https://yoksel.github.io/url-encoder/)
+
+---
 
 ## CSS
 
+### Повседневные решения
+
 1. WebGradients - бесплатная коллекция из 180 линейных градиентов: (https://webgradients.com/)
-2. BoxShadow - сервис для создание теней: (https://html-css-js.com/css/generator/box-shadow/)
-3. Расчёт свойства clip-path, для создания фигур разной формы (https://bennettfeely.com/clippy/)
+2. BoxShadow - сервис для создания теней: (https://html-css-js.com/css/generator/box-shadow/)
+3. Clippy - Расчёт свойства clip-path, для создания фигур разной формы (https://bennettfeely.com/clippy/)
+4. Animista - библиотека готовых css анимаций (https://animista.net/)
+5. Color Name - позволяет узнать название HEX, RGB цветов (https://colornamer.robertcooper.me/)
+6. RGBA to HEX (https://rgbacolorpicker.com/rgba-to-hex)
+7. URL декодер для SVG - для вставки закодированного изображения в CSS (https://yoksel.github.io/url-encoder/)
 
-### Документация
+### Препроцессоры 
 
-1. Гайд по препроцессору SCSS (https://medium.com/nuances-of-programming/%D0%BF%D0%BE%D0%BB%D0%BD%D1%8B%D0%B9-%D0%B3%D0%B0%D0%B9%D0%B4-%D0%BF%D0%BE-scss-sass-b09ae0c87afe)
+1. Гайд по препроцессору SCSS: (https://medium.com/nuances-of-programming/%D0%BF%D0%BE%D0%BB%D0%BD%D1%8B%D0%B9-%D0%B3%D0%B0%D0%B9%D0%B4-%D0%BF%D0%BE-scss-sass-b09ae0c87afe)
+
+### Методологии
+
+1. Методология БЭМ: (https://ru.bem.info/methodology/css/)
+
+---
+
+## GIT
+
+### Повседневные решения
+
+1. Шпаргалка с основными командами для Git: (https://agladky.ru/blog/git-cheat-sheet/)
+2. GitIgnore генератор: (https://www.toptal.com/developers/gitignore)
+
+### Модели ветвления
+
+1. GitFlow: (https://habr.com/ru/post/106912/)
+
+### Прочее
+
+1. Как установить SSH ключ: (https://docs.microsoft.com/ru-ru/azure/virtual-machines/linux/create-ssh-keys-detailed)
+
+---
+
+## Cервисы
+
+### Изображения, картинки, иконки, видео
+
+1. Squoosh - лучший сервис для оптимизации изображений: (https://squoosh.app/)
+2. Icons 8: (https://icons8.ru/icons)
+3. Unsplash: (https://unsplash.com/)
+4. Coverr: (https://coverr.co/)
+
+### Шрифты
+
+1. WebFonts.pro: (https://webfonts.pro/)
+2. NoMail: (https://nomail.com.ua/)
+
+### Конвертаторы шрифтов
+
+1. Font2Web: (https://www.font2web.com/)
+
+### Метрики 
+
+1. Google LightHouse: (https://developers.google.com/web/tools/lighthouse)
+2. Google page speed: (https://developers.google.com/speed/pagespeed/insights/?hl=ru)
+3. Analyzer runtime performance : (https://developer.chrome.com/docs/devtools/evaluate-performance/)
+
+---
 
 ## React
 
 ### IDE
 
 1. ReactIDE: (http://reactide.io/)
-2. Proton Native: (https://proton-native.js.org/#/)
+2. Proton Native: (https://proton-native.js.org/)
 
 ### Песочницы
 
-1. CodeSandbox: (https://codesandbox.io/)
 2. React-Proto: (https://react-proto.github.io/react-proto/)
-
-### Фреймворки для генерации статических сайтов написанные на React
-
-1. Gatsby: (https://www.gatsbyjs.com/)
-2. Next.js: (https://nextjs.org/)
-
-### Библиотеки готовых компонентов
-
-1. Material-UI: (https://material-ui.com/)
-2. React-Bootstrap: (https://github.com/react-bootstrap/react-bootstrap)
-3. Reactstrap: (https://github.com/reactstrap/reactstrap)
-
-### Роутеры
-
-1. React router dom: (https://reactrouter.com/web/guides/quick-start)
-
-### Библиотеки для работы с формами
-
-1. Formik: (https://formik.org/) + валидатор Yup: (https://github.com/jquense/yup)
-2. React Hook Form: (https://react-hook-form.com/get-started/)
-3. React skeleton: (https://skeletonreact.com/)
-
-### Библиотеки для работы с UI
-
-1. React select: (https://react-select.com/home)
-2. React datepicker: (https://reactdatepicker.com/)
-
-### Библиотеки для работы с графиками
-
-1. Nivo: (https://github.com/plouc/nivo)
-2. Vis: (https://github.com/uber/react-vis)
+3. React Cosmos - песочница для создания компонентов: (https://reactcosmos.org/)
 
 ### Devtools
 
 1. React Developer Tools: (https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=ru)
-2. Redux Dev Tools: (https://github.com/reduxjs/redux-devtools)
-3. Analyzer runtime performance : (https://developer.chrome.com/docs/devtools/evaluate-performance/)
+2. Redux Developer Tools: (https://github.com/reduxjs/redux-devtools)
 
 ### Документации
 
-1. React documentation: (https://reactjs.org/docs/getting-started.html)
+1. React documentation: (https://reactjs.org/docs)
 2. React Bits: (https://vasanthk.gitbooks.io/react-bits/)
 3. Awesome React: (https://github.com/enaqx/awesome-react)
-4. Devhints React.js cheatsheet: (https://devhints.io/react/)
-5. Redux documentation: (https://rajdee.gitbooks.io/redux-in-russian/content/docs/introduction/Ecosystem.html)
-6. Redux functional explanation: (https://egghead.io/lessons/react-redux-the-reducer-function)
 
-### Starter projects
+### Фреймворки для создания React приложений
+
+1. Gatsby: (https://www.gatsbyjs.com/)
+2. Next JS: (https://nextjs.org/)
+3. Remix JS: (https://remix.run/)
+
+### Библиотеки готовых компонентов
+
+1. React select: (https://react-select.com/home)
+2. React datepicker: (https://reactdatepicker.com/)
+3. React-input-mask - библиотека для создание маски в input элементах: (https://www.npmjs.com/package/react-input-mask)
+4. React-error-boundary - простая и многоразовая оболочка,
+   которую можно использовать для отлова ошибок ваших компонентов, с последующей корректной обработкой:
+   (https://www.npmjs.com/package/react-error-boundary)
+5. React google login: (https://www.npmjs.com/package/react-google-login)
+6. React Skeleton: (https://skeletonreact.com/)
+
+### Библиотеки для роутинга
+
+1. React router dom: (https://v5.reactrouter.com/)
+
+### Библиотеки для работы с формами
+
+1. Formik: (https://formik.org/) + Yup: (https://github.com/jquense/yup)
+2. React Hook Form: (https://react-hook-form.com/)
+3. React Final Form (https://final-form.org/react)
+
+### Библиотеки для работы с графиками
+
+1. Highcharts: (https://www.highcharts.com/)
+2. D3 JS (https://d3js.org/)
+
+### Бойлер плейты
 
 1. Create React App: (https://github.com/facebook/create-react-app/)
 2. React Starter Projects: (https://www.javascriptstuff.com/react-starter-projects/)
 
+### Профилирование
+
+1. Why Did You Render - инструмент для отслеживания ререндера в React приложениях: (https://github.com/welldone-software/why-did-you-render/)
+2. React-Sight - интерактивное представление дерева иерархии компонентов вашего приложения React с поддержкой React Router и Redux: (https://github.com/React-Sight/React-Sight)
+
 ### Интересные библиотеки и решения
 
 1. UseHooks - сайт кастомных решений сделанных на основе хуков: (https://usehooks.com/)
-2. Webpack Bundle Analyzer - графическое решение для отслеживания размера зависимостей Webpack: (https://github.com/webpack-contrib/webpack-bundle-analyzer/)
-3. React-Sight - интерактивное представление дерева иерархии компонентов вашего приложения React с поддержкой React Router и Redux: (https://github.com/React-Sight/React-Sight)
-4. Why Did You Render - инструмент для отслеживания ререндера в React приложениях: (https://github.com/welldone-software/why-did-you-render/)
-5. Storybook - инструментдля изолированного создания компонентов пользовательского интерфейса и страниц: (https://storybook.js.org/)
-6. React Cosmos - песочница для создания компонентов: (https://reactcosmos.org/)
-7. Semantic UI React - инструмент для отображения семантики UI React: (https://react.semantic-ui.com/)
-8. Preact - облегчённая и усовершенствованная версия React: (https://preactjs.com/)
+2. Storybook - инструмент для изолированного создания компонентов пользовательского интерфейса и страниц: (https://storybook.js.org/)
+3. Semantic UI React - инструмент для отображения семантики UI React: (https://react.semantic-ui.com/)
+4. Preact - облегчённая и усовершенствованная версия React: (https://preactjs.com/)
+
+---
 
 ## NodeJS
 
-1. Soket IO - библиотека для работы с WS: (https://socket.io/#examples)
-2. Express Js - минималистичный веб-фреймворк для приложений: (https://expressjs.com/ru/)
+### Документации
 
-## NPM
+[Отличная документация по Node js](assets/node-js-guide.pdf)
 
-### Поиск пакетов
+### Повседневные решения
 
-1. Cdnjs: (https://cdnjs.com/libraries)
-2. Bundlephobia - поиск npm пакетов с демонстрацией альтернативных решений: (https://bundlephobia.com/)
+1. Json server - полный поддельный REST API с нулевым кодированием менее чем за 30 секунд: (https://www.npmjs.com/package/json-server)
+2. Concurrently - запуск нескольких команд одновременно: (https://www.npmjs.com/package/concurrently)
+3. Cross env - запуск сценариев, которые устанавливают и используют переменные среды на разных платформах: (https://www.npmjs.com/package/cross-env)
+4. Env-cmd - простая программа node для выполнения команд с использованием среды из файла env: (https://www.npmjs.com/package/env-cmd)
+5. Config - node-config организует иерархические конфигурации для развертываний ваших приложений: (https://www.npmjs.com/package/config)
+6. Bcrypt - библиотека, которая поможет вам шифровать пароли, в соответствии с определёнными стандартами: (https://www.npmjs.com/package/bcrypt)
+7. Uuid - библиотека для создания уникального id: (https://www.npmjs.com/package/uuid)
+8. JavaScript Cookie - простой и легкий JavaScript API для обработки файлов cookie: (https://www.npmjs.com/package/js-cookie)
 
-### React
+### Интересные библиотеки и решения
 
-1. Prop-Types - проверка типов пропсов компонента: (https://www.npmjs.com/package/prop-types)
-2. React-error-boundary - простая и многоразовая оболочка, которую можно использовать для отлова ошибок ваших компонентов, с последующей корректной обработкой: (https://www.npmjs.com/package/react-error-boundary)
-3. Redux-LocalStorage-Simple - прослойка для хранения и загрузки состояния Redux в LocalStorage: (https://www.npmjs.com/package/redux-localstorage-simple)
+1. Socket IO - библиотека для работы с WS: (https://socket.io)
+2. Jsonwebtoken - реализация веб-токенов JSON: (https://www.npmjs.com/package/jsonwebtoken)
 
-#### UI
+---
 
-1. React-input-mask - библиотека для создание маски в input элементах: (https://www.npmjs.com/package/react-input-mask)
-
-### Node JS
-
-1. Bcrypt - библиотека, которая поможет вам хэшировать пароли: (https://www.npmjs.com/package/bcrypt)
-2. Config - node-config организует иерархические конфигурации для развертываний ваших приложений: (https://www.npmjs.com/package/config)
-3. Jsonwebtoken - реализация веб-токенов JSON: (https://www.npmjs.com/package/jsonwebtoken)
-4. Uuid - библиотека для создания уникального id: (https://www.npmjs.com/package/uuid)
-5. Json Server - развёртывания сервера, использующего fake REST API с нулевым кодированием: (https://www.npmjs.com/package/json-server)
-6. Concurrently - одновременное выполнение нескольких команд в скриптах манифестов:(https://www.npmjs.com/package/concurrently)
-7. JavaScript Cookie - простой и легкий JavaScript API для обработки файлов cookie: (https://www.npmjs.com/package/js-cookie)
-
-#### Express
-
-1. Express-validator - валидирует данные на серверной стороне: (https://www.npmjs.com/package/express-validator)
-
-### Прочее
-
-1. Как установить версию js для нескольких узлов на одном компьютере: (https://www.loginradius.com/blog/async/run-multiple-nodejs-version-on-the-same-machine/)

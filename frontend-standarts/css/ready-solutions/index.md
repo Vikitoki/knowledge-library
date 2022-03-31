@@ -1,5 +1,8 @@
 # CSS
 
+1. Стилизация кросс браузерных вводимых диапазонов с помощью CSS: 
+(https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/)
+
 ---
 
 ## Класс, чтобы прятать дефолтный чекбокс
