@@ -1,13 +1,13 @@
 # Оглавление HTML -> Tags
 
-Вся информация и примеры взяты [отсюда](https://doka.guide/html/). Здесь только наиболее интересные моменты!
+Вся информация и примеры взяты [отсюда](https://doka.guide/html/). Здесь только интересные моменты!
 
-- [Основа](main.md)
-- [Форматирование](formats.md)
-- [Семантика](semantics.md)
-- [Формы](forms.md)
-- [Картинки](pictures.md)
-- [Ссылки](links.md)
-- [Списки](lists.md)
-- [Интерактив](interactive.md)
-- [Глобальные атрибуты](globals.md)
+- [Основа](main/index.md)
+- [Форматирование](formats/index.md)
+- [Семантика](semantics/index.md)
+- [Формы](forms/index.md)
+- [Картинки](pictures/index.md)
+- [Ссылки](links/index.md)
+- [Списки](lists/index.md)
+- [Интерактив](interactive/index.md)
+- [Глобальные атрибуты](globals/index.md)
