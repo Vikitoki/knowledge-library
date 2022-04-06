@@ -2,6 +2,40 @@
 
 ## Теоретические технические вопросы
 
+### CSS & HTML
+
+1. Что такое препроцессор? Приведите примеры препроцессоров. (SCSS, SASS, Less)
+2. Что такое постпроцессор?
+3. Какие знаете методологии верстки? (БЭМ, SMACSS)
+4. Основные правила БЭМ. Максимальная вложенность по БЭМ. Где в БЭМ может быть
+каскад? Где можно использовать/где нельзя: <br>
+<https://yandex.com/dev/bem/> <br>
+<https://habr.com/ru/company/yandex/blog/276035/>
+5. Box-sizing. Чем отличается значение border-box от остальных: <https://doka.guide/css/box-sizing/>
+6. Что такое уникальность (специфичность) селектора: <https://doka.guide/css/specificity/>
+7. В чем отличие между transform: translate и position свойствами? <https://webformyself.com/css-ot-a-do-ya-raznica-mezhdu-translate-i-position-relative/>
+8. Как сделать анимацию в браузере через css? <https://doka.guide/css/animation/>
+9. Расскажите как работает z-index? Если z-index не задан? <https://doka.guide/css/z-index/>
+10. Зачем нужны media выражения? <https://doka.guide/css/media/>
+11. Ретина. Что это такое, как используются варианты изображения для обычного экрана и
+для ретины в html|css: <br>
+<https://habr.com/ru/post/150071/> <br>
+<https://htmlacademy.ru/blog/boost/frontend/retina>
+12. SVG. Для чего нужен, как используется, приемы применения: <br>
+<https://doka.guide/html/svg/> <br>
+<https://ru.hexlet.io/blog/posts/kak-rabotat-s-formatom-svg-rukovodstvo-dlya-nachinayuschih-veb-razrabotchikov> 
+13. Чем отличается {display: none} от {visibility: hidden , opacity: 0}
+14. Cвойство Position. Назовите возможные свойства position: <https://doka.guide/css/position/>
+15. DOM-интерфейс и работа с ним: <https://doka.guide/js/dom/>
+16. Как получить тэг html? <https://doka.guide/js/element/>
+17. Cобытия жизненного цикла страницы: <https://doka.guide/js/event-load-and-domcontentloaded/>
+18. Как можно перебрать коллекцию html элементов (*) 
+19. Как перевести html коллекцию в массив (*) : <https://doka.guide/js/array-from/>
+20. Атрибуты тега <script>: <https://doka.guide/html/script/>
+21. Чем отличаются reflow и repaint? <br>
+<https://habr.com/ru/post/224187/> <br>
+<https://doka.guide/js/how-the-browser-creates-pages/>
+
 ### Java Script
 
 1. В чём заключаются различия var, const и let? <https://doka.guide/js/var-let/>
@@ -88,3 +122,35 @@
 <https://qna.habr.com/q/265184> <br>
 <https://ru.stackoverflow.com/questions/536784/%D0%A7%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-html5-websocket-long-short-polling-ajax-webrtc-server-sent-events> <br>
 <https://ably.com/blog/websockets-vs-long-polling>
+
+
+### TypeScript
+
+1. Что такое TypeScript? Зачем его использовать вместо JavaScript?
+2. Типы данных TypeScript?
+3. Что за операторы & и |, их особенности и различия в TypeScript?
+4. Расскажите об обобщенных типах в TypeScript? (generics)
+5. Поддерживает ли TypeScript принципы ООП? Какие из них вы знаете?
+6. Как в TypeScript реализовать свойство класса являющуюся константой?
+7. Расскажи про классы? Если я хочу переопределить в дочернем классе конструктор, есть
+ли с этим какая-то особенность? let, const? Если я в const запишу объект, я смогу его
+менять?
+8. Что представляют собой .map-файлы в TypeScript?
+9. Что такое геттеры и сеттеры в TypeScript?
+10. Можно ли использовать TypeScript на бэке?
+11. Расскажите об основных компонентах TypeScript? (язык, компилятор, вспомогательные
+инструменты)
+12. Декораторы в TypeScript?
+13. Можно ли в TypeScript использовать строго типизированные функции использовать в
+качестве параметров?
+14. Как сделать классы объявленные внутри модуля доступными извне?
+15. Поддерживает ли TypeScript перегрузку функций? Как это реализовать?
+16. В чем разница между interface и type в TypeScript?
+17. Когда в TypeScript используется ключевое слово declare?
+18. Как сводить к определенному типу в TypeScript? (type assertion)
+19. Как проверить тип объекта в TypeScript?
+20. Расскажите подробнее о enum(перечисления)?
+21. Что такое union type?
+22. Что такое утиная типизация?
+23. Когда увидите полезность TypeScript
+
