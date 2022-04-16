@@ -14,7 +14,7 @@ request.get(url, (requestErr, response) => {
 });
 ```
 
-👍**Good:**
+👍**Хорошо:**
 
 ```javascript
 requestPromise
@@ -46,7 +46,7 @@ requestPromise
   });
 ```
 
-👍**Good:**
+👍**Хорошо:**
 
 ```javascript
 async function getCleanCodeArticle(url) {
@@ -74,7 +74,7 @@ try {
 }
 ```
 
-👍**Good:**
+👍**Хорошо:**
 
 ```javascript
 try {

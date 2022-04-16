@@ -104,7 +104,7 @@ export const useObserver = (ref, canLoad, isLoading, callback) => {
 
 ---
 
-### Debounce для функций
+## Debounce для функций
 
 Статья по теме: 
 <https://medium.com/nuances-of-programming/%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-throttling-%D0%B8-debouncing-4f0a839769ef>
@@ -135,3 +135,42 @@ export default function useDebouncedFunction(func, delay, cleanUp = false) {
 ```
 
 ---
+
+## Получить предыдущие пропсы или состояние
+
+```jsx
+function usePrevious(value) {
+  const ref = useRef();
+  
+  useEffect(() => {
+    ref.current = value;
+  });
+  
+  return ref.current;
+}
+```
+
+## Измерить параметры DOM узла
+
+Один из элементарных способов определения положения или размера DOM-узла это использование колбэк-реф.
+React будет вызывать этот колбэк всякий раз, когда реф привязывается к другому узлу. 
+
+Если необходимо отследить изменение размера компонента, 
+воспользуйтесь [ResizeObserver](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver) или сторонним хуком, 
+использующего этот API.
+
+Пример:
+
+---
+
+```jsx
+function useClientRect() {
+  const [rect, setRect] = useState(null);
+  const ref = useCallback(node => {
+    if (node !== null) {
+      setRect(node.getBoundingClientRect());
+    }
+  }, []);
+  return [rect, ref];
+}
+```
