@@ -29,3 +29,9 @@ class ErrorBoundary extends React.Component {
   }
 }
 ```
+
+
+## Можно создавать анимации в React?
+
+React может использоваться для создания крутых анимаций! 
+В качестве примера посмотрите библиотеки React Transition Group, React Motion, React Spring или Framer Motion.
