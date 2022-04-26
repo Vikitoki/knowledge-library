@@ -283,9 +283,7 @@ const wyoming: IState = {
 Это называется объединением деклараций. Главным образом оно используется с файлами деклараций типов. 
 Для их поддержки уместно использовать interface, поскольку в декларациях типов могут быть пропуски, 
 которые должны заполнять пользователи. TypeScript использует слияние, чтобы получать разные типы для разных
-версий стандартной библиотеки JavaScript. 
-
---- 
+версий стандартной библиотеки JavaScript.
 
 Выводы:
 
@@ -328,4 +326,166 @@ const rocket: Rocket = {
 
 ## Используйте readonly против ошибок, связанных с изменяемостью
 
+```ts
+function arraySum(arr: readonly number[]) {
+ let sum = 0;
+ 
+ for (const num of arr) {
+ sum += num;
+ }
+ 
+ return sum;
+}
+```
 
+```ts
+let obj: {readonly [k: string]: number} = {};
+```
+```ts
+interface Outer {
+ inner: { x: number; }
+}
+
+type T = Readonly<Outer>;
+
+// Тип T = {
+// readonly inner: {
+// x: number;
+// };
+// 
+```
+
+Важно обратить внимание на то, что модификатор readonly в третьем примере распространяется на inner, но не на x. 
+Не существует встроенной поддержки глубоких типов readonly, но для этой цели можно создать
+обобщение. Сделать это правильно весьма непросто, поэтому обычно
+используют библиотеку. Обобщение DeepReadonly в ts-essentials является одной из возможных реализаций.
+
+
+## Старайтесь сужать тип и контролировать его
+
+Сужение является процессом, обратным расширению. С его помощью
+TypeScript переходит от более широкого типа к более узкому. 
+
+1. Простой пример этого процесса — проверка null:
+
+```ts
+const el = document.getElementById('foo'); // тип HTMLElement | null
+
+if (el) {
+ el // тип HTMLElement
+ el.innerHTML = 'Party Time'.blink();
+} else {
+ el // тип null
+ alert('No element #foo');
+}
+```
+
+2. Использование `inctanceof` или проверка свойств:
+
+```ts
+function contains(text: string, search: string|RegExp) {
+  
+ if (search instanceof RegExp) {
+ search // тип RegExp
+ return !!search.exec(text);
+ }
+ 
+ search // тип string
+ return text.includes(search);
+}
+```
+
+```ts
+interface A { a: number }
+interface B { b: number }
+
+function pickAB(ab: A | B) {
+  
+ if ('a' in ab) {
+  ab // тип A
+ } else {
+  ab // тип B
+ }
+ 
+ ab // тип A | B
+}
+```
+
+3. Добавление к ним явного тега:
+
+```ts
+interface UploadEvent { type: 'upload'; filename: string; contents: string }
+interface DownloadEvent { type: 'download'; filename: string; }
+type AppEvent = UploadEvent | DownloadEvent;
+
+function handleEvent(e: AppEvent) {
+     switch (e.type) {
+         case 'download':
+            console.log(e); // тип DownloadEvent
+         break;
+         case 'upload':
+           console.log(e); // тип UploadEvent
+         break;
+       default:
+         const restTypes: never = e;
+         
+     }
+}
+```
+
+Такой распространенный шаблон известен как тип-сумма, или размеченное
+объединение.
+
+4. Если TypeScript не может выявить тип, попробуйте ввести пользовательскую функцию:
+
+
+```ts
+function isInputElement(el: HTMLElement): el is HTMLInputElement {
+ return 'value' in el;
+}
+
+function getElementContent(el: HTMLElement) {
+  
+ if (isInputElement(el)) {
+ el; // тип HTMLInputElement
+ return el.value;
+ }
+ 
+ el; // тип HTMLElement
+ return el.textContent;
+}
+
+```
+
+Внимание: будьте осторожны с использованием таких функций. Внутри них TypeScript отключает очень большую часть статической проверки
+типов. Например, данный код тоже будет валиден:
+
+```ts
+function isInputElement(el: HTMLElement): el is HTMLInputElement {
+ return 1 === 2;
+}
+```
+
+Очень часто, чтобы поддерживать контракт изменения уточняемых типов, их пишут рядом в одном месте. Или используют библиотеки
+runtime валидации по типу [runtypes](https://www.npmjs.com/package/runtypes).
+
+Пример, где это необходимо. Если вы используете filter для отсеивания значений undefined, то
+TypeScript этого не примет:
+
+```ts
+const members = ['Janet', 'Michael'].map(
+ who => jackson5.find(n => n === who)
+).filter(who => who !== undefined); // тип (string | undefined)[]
+```
+
+Однако он одобрит использование защиты типа:
+
+```ts
+function isDefined<T>(x: T | undefined): x is T {
+ return x !== undefined;
+}
+
+const members = ['Janet', 'Michael'].map(
+ who => jackson5.find(n => n === who)
+).filter(isDefined); // тип string[]
+```
