@@ -1,11 +1,15 @@
-# CSS
+# Готовые решения
+
+## Ссылки
 
 1. Стилизация кросс браузерных вводимых диапазонов с помощью CSS: 
+<https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/>
+2. Стилизация input range: 
 <https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/>
 
 ---
 
-## Класс, чтобы прятать дефолтный чекбокс
+## Прятать дефолтный чекбокс
 
 ```css
 .visually-hidden {
@@ -22,3 +26,30 @@
   overflow: hidden;
 }
 ```
+
+---
+
+## Поставить три точки в конце текста
+
+Для одно строкового текста
+
+```css
+div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+```
+
+Для много строкового текста
+
+```css
+div {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2; // количество строк
+    -webkit-box-orient: vertical;
+}
+```
+
+---
