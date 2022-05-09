@@ -185,8 +185,8 @@
 
 ### Документации
 
-1. [Отличный гайд по Node js]<assets/node-js-guide.pdf> 
-2. [Основная документация]<https://nodejs.org/en/docs/>
+1. Отличный гайд по Node js: <https://habr.com/ru/company/ruvds/blog/428576/>
+2. Документация: <https://nodejs.org/en/docs/>
 
 ### Контроль версий
 
