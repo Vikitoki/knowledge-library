@@ -2,30 +2,43 @@
 
 ---
 
-## Лучшие материалы
+## Cправочные материалы
+
+### Основное
 
 1. MDN: <https://developer.mozilla.org/ru/>
 2. Дока: <https://doka.guide/>
-3. Гуру рефакторига: <https://refactoring.guru/ru>
-4. Актуальное освещение технологий WEB: <https://2021.stateofjs.com/ru-RU/>
-5. Bundlephobia - поиск npm пакетов с демонстрацией альтернативных решений: <https://bundlephobia.com/>
-6. Openbase - cравните пакеты с открытым исходным кодом с мощными показателями и отзывами пользователей: <https://openbase.com/>
+3. Современный учебник JS: <https://learn.javascript.ru/>
+4. Сообщество разработчиков Вебстандарты: <https://web-standards.ru/>
+5. Сообщество разработчиков Flaviocopes: <https://flaviocopes.com/>
+6. Гуру рефакторига(работает с VPN): <https://refactoring.guru/ru>
+
+### Курсы
+
+1. Frontendmasters: <https://frontendmasters.com/>
+2. Coursehunter - пиратская платформа для просмотра курсов по любой теме: <https://coursehunter.net/>
+3. Application Security - прекрасная платформа для обучения безопасности приложений и программного обеспечения
+   с помощью интерактивного обучения: <https://application.security/>
+
+### Статистика
+
+1. Bundlephobia - поиск npm пакетов с демонстрацией альтернативных решений: <https://bundlephobia.com/>
+2. Openbase - cравните пакеты с открытым исходным кодом с мощными показателями и отзывами пользователей: <https://openbase.com/>
+3. Актуальное освещение технологий WEB: <https://2021.stateofjs.com/ru-RU/>
+4. Ежегодный отчёт HTTP Archive о состоянии веба: <https://almanac.httparchive.org/ru/2021/>
+
+### Работа с сетью
+
+1. База данных кодов состояния HTTP: <https://www.webfx.com/web-development/glossary/http-status-codes/>
+
+---
 
 ## JS
 
-### Кастомные решения
-
-1. Инструмент динамического адаптива: <https://github.com/FreelancerLifeStyle/dynamic_adapt>
-
 ### Повседневные решения
 
-1. Swiper - cовременный мобильный сенсорный слайдер: <https://swiperjs.com/>
+1. Инструмент динамического адаптива: <https://github.com/FreelancerLifeStyle/dynamic_adapt>
 2. Regex101 - площадка для тестирования Reg exp выражений <https://regex101.com/>
-
-### Интересные библиотеки:
-
-1. Webpack Bundle Analyzer - графическое решение для отслеживания размера зависимостей Webpack: 
-<https://github.com/webpack-contrib/webpack-bundle-analyzer/>
 
 ---
 
@@ -54,7 +67,7 @@
 6. RGBA to HEX <https://rgbacolorpicker.com/rgba-to-hex>
 7. URL декодер для SVG - для вставки закодированного изображения в CSS <https://yoksel.github.io/url-encoder/>
 
-### Препроцессоры 
+### Препроцессоры
 
 1. Гайд по препроцессору SCSS: <https://medium.com/nuances-of-programming/%D0%BF%D0%BE%D0%BB%D0%BD%D1%8B%D0%B9-%D0%B3%D0%B0%D0%B9%D0%B4-%D0%BF%D0%BE-scss-sass-b09ae0c87afe>
 
@@ -99,7 +112,7 @@
 
 1. Font2Web: <https://www.font2web.com/>
 
-### Метрики 
+### Метрики
 
 1. Google LightHouse: <https://developers.google.com/web/tools/lighthouse>
 2. Google page speed: <https://developers.google.com/speed/pagespeed/insights/?hl=ru>
@@ -210,3 +223,9 @@
 
 ---
 
+## CI/CD
+
+### Сборщики, таск ранеры и пр. :
+
+1. Webpack Bundle Analyzer - графическое решение для отслеживания размера зависимостей Webpack:
+   <https://github.com/webpack-contrib/webpack-bundle-analyzer/>
