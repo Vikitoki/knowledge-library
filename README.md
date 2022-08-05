@@ -3,10 +3,7 @@
 - [Всё для старта проекта](all-for-project/index.md)
 - [Полезные ссылки](useful-links/index.md)
 - [Статьи по темам](articles/index.md)
-- [Фронтенд стандарты](frontend-standarts/index.md)
-- [React](react/index.md)
-- [Typescript](typescript/index.md)
-- [Node JS](node-js/index.md)
+- [Технологии во фронтенде](technologies-in-the-frontend/index.md)
 - [Вопросы для собеседования](interview/index.md)
 
 # Вклад в документацию
