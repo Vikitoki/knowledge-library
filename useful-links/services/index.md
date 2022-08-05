@@ -34,3 +34,5 @@
 2. Google page speed - узнайте, как ускорить загрузку своих страниц на любых устройствах: <https://pagespeed.web.dev/?utm_source=psi&utm_medium=redirect>
 3. Google LightHouse: <https://developers.google.com/web/tools/lighthouse>
 4. Analyzer runtime performance : <https://developer.chrome.com/docs/devtools/evaluate-performance/>
+
+---

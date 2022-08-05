@@ -154,6 +154,10 @@
 6. Bcrypt - библиотека, которая поможет вам шифровать пароли, в соответствии с определёнными стандартами: <https://www.npmjs.com/package/bcrypt>
 7. Uuid - библиотека для создания уникального id: <https://www.npmjs.com/package/uuid>
 8. JavaScript Cookie - простой и легкий JavaScript API для обработки файлов cookie: <https://www.npmjs.com/package/js-cookie>
+9. DepCheck - это инструмент для анализа зависимостей в проекте:<https://www.npmjs.com/package/depcheck>
+10. npm-run-all - инструмент CLI для запуска нескольких npm-скриптов параллельно или последовательно: <https://www.npmjs.com/package/npm-run-all>
+11. minimist - инструмент для парсинга аргументов командной строки без всяких причудливых украшений: <https://www.npmjs.com/package/minimist>
+12. http-server - инструмент для запуска простого статического HTTP-сервера: <https://www.npmjs.com/package/http-server>
 
 ### Интересные библиотеки и решения
 

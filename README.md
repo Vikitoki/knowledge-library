@@ -1,7 +1,7 @@
 # Оглавление
 
 - [Всё для старта проекта](all-for-project/index.md)
-- [Список инструметов для разработки](tools/index.md)
+- [Полезные ссылки](useful-links/index.md)
 - [Статьи по темам](articles/index.md)
 - [Фронтенд стандарты](frontend-standarts/index.md)
 - [React](react/index.md)
