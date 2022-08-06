@@ -4,7 +4,7 @@
 - [Полезные ссылки](useful-links/index.md)
 - [Литература](literature/index.md)
 - [Технологии во фронтенде](technologies-in-the-frontend/index.md)
-- [Вопросы для собеседования](interview/index.md)
+- [Материалы для новичков](junior/index.md)
 
 # Вклад в документацию
 
