@@ -2,7 +2,7 @@
 
 - [Всё для старта проекта](all-for-project/index.md)
 - [Полезные ссылки](useful-links/index.md)
-- [Статьи по темам](articles/index.md)
+- [Литература](literature/index.md)
 - [Технологии во фронтенде](technologies-in-the-frontend/index.md)
 - [Вопросы для собеседования](interview/index.md)
 
