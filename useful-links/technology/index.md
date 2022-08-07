@@ -105,6 +105,7 @@
 
 1. Highcharts: <https://www.highcharts.com/>
 2. D3 JS <https://d3js.org/>
+3. SVGR - превратите SVG в компоненты React: <https://react-svgr.com/>
 
 ### Бойлер плейты
 
