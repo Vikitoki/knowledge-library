@@ -11,8 +11,6 @@
 7. HTTP Status Codes Glossary: <https://www.webfx.com/web-development/glossary/http-status-codes/>
 8. Контрольный список внешнего интерфейса: <https://frontendchecklist.io/>
 
----
-
 ## Блоги
 
 1. Блог Александра Беспоясова: <https://bespoyasov.me/>
@@ -21,15 +19,11 @@
 4. Сообщество разработчиков Вебстандарты: <https://web-standards.ru/>
 5. Сообщество разработчиков Flaviocopes: <https://flaviocopes.com/>
 
----
-
 ## Курсы
 
 1. Coursehunter - пиратская платформа для просмотра курсов множества авторов: <https://coursehunter.net/>
 2. Frontendmasters: <https://frontendmasters.com/>
 3. Application Security - прекрасная платформа для обучения безопасности приложений и программного обеспечения с помощью интерактивного обучения: <https://application.security/>
-
----
 
 ## Статистика
 
@@ -38,14 +32,10 @@
 3. HTTP Archive - ежегодный отчёт о состоянии веба: <https://almanac.httparchive.org/ru/2021/>
 4. State of JS - ежегодный отчёт с графиками о состоянии экосистемы: <https://2021.stateofjs.com/ru-RU/>
 
----
-
 ## Доступность
 
 1. Руководство студии Артёма Лебедева: <https://guide.so-edinenie.org/rules>
 2. Статья Вадима Макеева: <https://medium.com/web-standards/what-accessibility-taught-me-207d1ff0e80c>
-
----
 
 ## Прочее
 

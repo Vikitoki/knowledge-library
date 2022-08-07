@@ -2,10 +2,10 @@
 
 ## Сортировка и поиск элементов
 
-Обратите внимание на `useMemo`. 
-На клиенте очень часто вместе с сортировкой присутствует фильтрация, привязанная к поисковой строке. 
-Изменение значения поисковой строки может вызывать постоянный вызов функции сортировки. 
-Такое изменение может оказать огромный удар по производительности. 
+Обратите внимание на `useMemo`.
+На клиенте очень часто вместе с сортировкой присутствует фильтрация, привязанная к поисковой строке.
+Изменение значения поисковой строки может вызывать постоянный вызов функции сортировки.
+Такое изменение может оказать огромный удар по производительности.
 Если вы уверены, что в вашем случае этого не происходит, пожалуйста удалите `useMemo`.
 
 ```ts
@@ -39,8 +39,6 @@ export const useSortedAndSearchedElements = (
 };
 ```
 
----
-
 ## Получение дополнительных состояний во время запрос данных
 
 Внимание, существует определённое соглашение, для корректной работы данного хука:
@@ -69,9 +67,7 @@ export const useFetching = (callback) => {
 };
 ```
 
----
-
-## Выполнение функции после пересечения конкретного блока на странице. 
+## Выполнение функции после пересечения конкретного блока на странице.
 
 Технология, использующаяся в данном хуке: <https://developer.mozilla.org/ru/docs/Web/API/Intersection_Observer_API>
 
@@ -82,35 +78,33 @@ export const useFetching = (callback) => {
 - `ref` - элемент DOM, находящийся на странице элемент, за которым мы следим.
 
 ```javascript
-import {useEffect, useRef} from "react";
+import { useEffect, useRef } from "react";
 
 export const useObserver = (ref, canLoad, isLoading, callback) => {
-    const observer = useRef();
+  const observer = useRef();
 
-    useEffect(() => {
-        if(isLoading) return;
-        if(observer.current) observer.current.disconnect();
+  useEffect(() => {
+    if (isLoading) return;
+    if (observer.current) observer.current.disconnect();
 
-        const cb = function(entries, observer) {
-            if (entries[0].isIntersecting && canLoad) {
-                callback()
-            }
-        };
-        observer.current = new IntersectionObserver(cb);
-        observer.current.observe(ref.current)
-    }, [isLoading])
-}
+    const cb = function (entries, observer) {
+      if (entries[0].isIntersecting && canLoad) {
+        callback();
+      }
+    };
+    observer.current = new IntersectionObserver(cb);
+    observer.current.observe(ref.current);
+  }, [isLoading]);
+};
 ```
-
----
 
 ## Debounce для функций
 
-Статья по теме: 
+Статья по теме:
 <https://medium.com/nuances-of-programming/%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-throttling-%D0%B8-debouncing-4f0a839769ef>
 
-- `cleanUp` - флаг, отвечающий за выполнение функции, в соответствии с размонтированием компонента. 
-Если ваш компонент может быть размонтирован, установите флаг в значение true.
+- `cleanUp` - флаг, отвечающий за выполнение функции, в соответствии с размонтированием компонента.
+  Если ваш компонент может быть размонтирован, установите флаг в значение true.
 
 ```javascript
 import { useRef, useEffect } from "react";
@@ -134,18 +128,16 @@ export default function useDebouncedFunction(func, delay, cleanUp = false) {
 }
 ```
 
----
-
 ## Получить предыдущие пропсы или состояние
 
 ```jsx
 function usePrevious(value) {
   const ref = useRef();
-  
+
   useEffect(() => {
     ref.current = value;
   });
-  
+
   return ref.current;
 }
 ```
@@ -153,20 +145,18 @@ function usePrevious(value) {
 ## Измерить параметры DOM узла
 
 Один из элементарных способов определения положения или размера DOM-узла это использование колбэк-реф.
-React будет вызывать этот колбэк всякий раз, когда реф привязывается к другому узлу. 
+React будет вызывать этот колбэк всякий раз, когда реф привязывается к другому узлу.
 
-Если необходимо отследить изменение размера компонента, 
-воспользуйтесь [ResizeObserver](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver) или сторонним хуком, 
+Если необходимо отследить изменение размера компонента,
+воспользуйтесь [ResizeObserver](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver) или сторонним хуком,
 использующего этот API.
 
 Пример:
 
----
-
 ```jsx
 function useClientRect() {
   const [rect, setRect] = useState(null);
-  const ref = useCallback(node => {
+  const ref = useCallback((node) => {
     if (node !== null) {
       setRect(node.getBoundingClientRect());
     }

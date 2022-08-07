@@ -7,26 +7,18 @@
 3. Unsplash: <https://unsplash.com/>
 4. Coverr: <https://coverr.co/>
 
----
-
 ## Шрифты
 
 1. WebFonts.pro: <https://webfonts.pro/>
 2. NoMail: <https://nomail.com.ua/>
 
----
-
 ## Конвертаторы шрифтов
 
 1. Font2Web: <https://www.font2web.com/>
 
----
-
 ## Доступность
 
 1. Axe-core - инструмент тестирования доступности для веб-сайтов и других пользовательских интерфейсов:<https://github.com/dequelabs/axe-core>
-
----
 
 ## Профилирование
 
@@ -34,5 +26,3 @@
 2. Google page speed - узнайте, как ускорить загрузку своих страниц на любых устройствах: <https://pagespeed.web.dev/?utm_source=psi&utm_medium=redirect>
 3. Google LightHouse: <https://developers.google.com/web/tools/lighthouse>
 4. Analyzer runtime performance : <https://developer.chrome.com/docs/devtools/evaluate-performance/>
-
----

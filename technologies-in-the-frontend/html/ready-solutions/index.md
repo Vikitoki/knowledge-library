@@ -1,7 +1,5 @@
 # HTML
 
----
-
 ## Разметка меню приложения
 
 ```html
@@ -13,14 +11,12 @@
   </ul>
 </nav>
 ```
----
 
 ## Определение footer через voice over
 
 ```html
 <footer class="navigation" role="contentinfo"></footer>
 ```
----
 
 ## Реализация картинки для разных медиа выражений
 

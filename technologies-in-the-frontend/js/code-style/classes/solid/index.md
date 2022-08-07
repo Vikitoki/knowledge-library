@@ -1,43 +1,40 @@
 # SOLID
 
----
-
 ## Single responsibility principle
 
 👎**Плохо:**
 
 ```javascript
 class Auto {
-	constructor(model: string) { }
-	getCarModel() { }
-	saveCustomerOrder(o: Auto) { }
-	setCarModel() { }
-	getCustomerOrder(id: string) { }
-	removeCustomerOrder(id: string) { }
-	updateCarSet(set: object) { }
+  constructor(model: string) {}
+  getCarModel() {}
+  saveCustomerOrder(o: Auto) {}
+  setCarModel() {}
+  getCustomerOrder(id: string) {}
+  removeCustomerOrder(id: string) {}
+  updateCarSet(set: object) {}
 }
 ```
 
 👍**Хорошо:**
+
 ```javascript
 class Auto {
-	constructor(model: string) { }
-	getCarModel() { }
-	setCarModel() { }
+  constructor(model: string) {}
+  getCarModel() {}
+  setCarModel() {}
 }
 
 class CustomerAuto {
-	saveCustomerOrder(o: Auto) { }
-	getCustomerOrder(id: string) { }
-	removeCustomerOrder(id: string) { }
+  saveCustomerOrder(o: Auto) {}
+  getCustomerOrder(id: string) {}
+  removeCustomerOrder(id: string) {}
 }
 
 class AutoDB {
-	updateCarSet(set: object) { }
+  updateCarSet(set: object) {}
 }
 ```
-
----
 
 ## Open/closed principle
 
@@ -68,6 +65,7 @@ getPrice(shop);
 ```
 
 👍**Хорошо:**
+
 ```javascript
 abstract class CarPrice {
 	abstract getPrice(): string;
@@ -105,8 +103,6 @@ const getPrice = (auto: Array<CarPrice>): string | void => {
 
 getPrice(shop);
 ```
-
----
 
 ## Liskov substitution principle
 
@@ -150,27 +146,26 @@ class Square extends Rectangle {
 ```
 
 👍**Хорошо:**
+
 ```javascript
 interface Figure {
-	setWidth(width: number): void;
-	setHeight(height: number): void;
-	areaOf(): void;
+  setWidth(width: number): void;
+  setHeight(height: number): void;
+  areaOf(): void;
 }
 
 class Rectangle implements Figure {
-	setWidth(width: number) { }
-	setHeight(height: number) { }
-	areaOf() { }
+  setWidth(width: number) {}
+  setHeight(height: number) {}
+  areaOf() {}
 }
 
 class Square implements Figure {
-	setWidth(width: number) { }
-	setHeight(height: number) { }
-	areaOf() { }
+  setWidth(width: number) {}
+  setHeight(height: number) {}
+  areaOf() {}
 }
 ```
-
----
 
 ## Interface segregation principle
 
@@ -178,58 +173,57 @@ class Square implements Figure {
 
 ```javascript
 interface AutoSet {
-	getTeslaSet(): any;
-	getAudiSet(): any;
-	getBmwSet(): any;
+  getTeslaSet(): any;
+  getAudiSet(): any;
+  getBmwSet(): any;
 }
 
 class Tesla implements AutoSet {
-	getTeslaSet(): any { };
-	getAudiSet(): any { };
-	getBmwSet(): any { };
+  getTeslaSet(): any {}
+  getAudiSet(): any {}
+  getBmwSet(): any {}
 }
 
 class Audi implements AutoSet {
-	getTeslaSet(): any { };
-	getAudiSet(): any { };
-	getBmwSet(): any { };
+  getTeslaSet(): any {}
+  getAudiSet(): any {}
+  getBmwSet(): any {}
 }
 
 class Bmw implements AutoSet {
-	getTeslaSet(): any { };
-	getAudiSet(): any { };
-	getBmwSet(): any { };
+  getTeslaSet(): any {}
+  getAudiSet(): any {}
+  getBmwSet(): any {}
 }
 ```
 
 👍**Хорошо:**
+
 ```javascript
 interface TeslaSet {
-	getTeslaSet(): any;
+  getTeslaSet(): any;
 }
 
 interface AudiSet {
-	getAudiSet(): any;
+  getAudiSet(): any;
 }
 
 interface BmwSet {
-	getBmwSet(): any;
+  getBmwSet(): any;
 }
 
 class Tesla implements TeslaSet {
-	getTeslaSet(): any { };
+  getTeslaSet(): any {}
 }
 
 class Audi implements AudiSet {
-	getAudiSet(): any { };
+  getAudiSet(): any {}
 }
 
 class Bmw implements BmwSet {
-	getBmwSet(): any { };
+  getBmwSet(): any {}
 }
 ```
-
----
 
 ## Dependency inversion principle
 
@@ -258,6 +252,7 @@ class Http {
 ```
 
 👍**Хорошо:**
+
 ```javascript
 class xmlHttpRequestService {
 	open() { }
@@ -281,7 +276,7 @@ class xmlHttpService implements Connection {
 // High level module
 class Http {
 	constructor(private httpConnection: Connection) { }
-	
+
 	get(url: string, options: any) {
 		this.httpConnection.request(url, 'GET');
 	}

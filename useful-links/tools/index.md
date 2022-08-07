@@ -6,20 +6,14 @@
 2. Prettier: <https://prettier.io/>
 3. Stylelint: <https://stylelint.io/>
 
----
-
 ## GUI для работы с git
 
 1. Fork: <https://git-fork.com/>
-
----
 
 ## IDE
 
 1. VS Code: <https://code.visualstudio.com/>
 2. WebStorm: <https://www.jetbrains.com/ru-ru/webstorm/>
-
----
 
 ## Браузеры
 
@@ -28,26 +22,18 @@
 3. Microsoft Edge
 4. Safari
 
----
-
 ## Расширения для браузеров
 
 TODO
-
----
 
 ## Менеджеры для буфера обмена
 
 1. Ditto: <https://ditto-cp.sourceforge.io/>
 
----
-
 ## Архиваторы
 
 1. Winrar
 2. 7zip: <https://www.7-zip.org/>
-
----
 
 ## Менеджер скриншотов
 

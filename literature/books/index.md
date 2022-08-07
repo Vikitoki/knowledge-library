@@ -1,4 +1,3 @@
-
 # Книги
 
 ## По темам
@@ -8,11 +7,9 @@
 3. Domain Modeling Made Functional. Также можно посмотреть тут: <https://www.youtube.com/watch?v=Up7LcbGZFuo>
 4. Введение в анализ алгоритмов, Майкл Солтис: <https://www.rulit.me/data/programs/resources/pdf/Soltis_Vvedenie-v-analiz-algoritmov_RuLit_Me_603743.pdf>
 
-
----
-
 ## Рекомендальсьон
 
 1. Джедайские Техники, Максим Дорофеев: <https://forum.gipsyteam.ru/index.php?act=attach&type=post&id=559130>
 2. Исскуство мыслить рационально. Шорткаты в математике и жизни, Маркус Дю Сотой
 3. Живая математика, Яков Перельман
+4. Как пасти котов. Наставление для программистов, руководящих другими программистами, Ханк Рейнвотер

@@ -33,8 +33,6 @@ TODO
   DWC #101 - layout для страниц и шапка сайта
 ```
 
----
-
 ## CSS
 
 1. Порядок свойств.
@@ -97,8 +95,6 @@ export const TestIcon = styled(SvgArrowBackOutline)`
 
 Подробнее об инструменте svgr можно почитать [здесь](https://react-svgr.com/docs/what-is-svgr/)
 
----
-
 ## Именование цветов
 
 Мы не называем цвета по типу grayFirst, graySecond и так далее. Чтобы правильно обозначить цветовую константу мы
@@ -106,14 +102,10 @@ export const TestIcon = styled(SvgArrowBackOutline)`
 название. Далее оно записывается в папку constants в формате SNAKE_CASE. Если понадобится особый формат цвета, по типу
 RGBA - то мы записываем его в константу как есть и указываем название с суффиксом RGBA (например COLOR_BLACK_ABSOLUTE_FIRST_RGBA)
 
----
-
 ## Использование комментариев в коде
 
 1. Есть неявные или "магические" участки кода - комментируй;
 2. Начало саги или сервиса - комментируй;
-
----
 
 ## Redux
 
@@ -129,8 +121,6 @@ RGBA - то мы записываем его в константу как ест
 
 1. В названии сервиса в конце ставится Service (например changeUserPasswordService);
 2. В начале каждого сервиса перед блоком try ставится console.log(`${имя сервиса} started`);
-
----
 
 ## TypeScript
 
@@ -291,5 +281,3 @@ const SomeComp: React.FC<SomeCompProps> = ({ someValue = "defaultValue" }) => {
   // ...
 };
 ```
-
----

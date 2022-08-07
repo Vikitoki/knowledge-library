@@ -8,16 +8,12 @@
 2. Regex101 - площадка для тестирования корректности Reg exp проверок: <https://regex101.com/>
 3. Hegel JS - расширенная проверка статического типа: <https://hegel.js.org/>
 
----
-
 ## HTML
 
 ### Повседневные решения
 
 1. Placeholder - заглушка для картинок <https://placeholder.com/>
 2. W3C валидатор: <https://validator.w3.org/#validate_by_uri>
-
----
 
 ## CSS
 
@@ -39,8 +35,6 @@
 
 1. Методология БЭМ: <https://ru.bem.info/methodology/css/>
 
----
-
 ## GIT
 
 ### Повседневные решения
@@ -56,8 +50,6 @@
 ### Прочее
 
 1. Как установить SSH ключ: <https://docs.microsoft.com/ru-ru/azure/virtual-machines/linux/create-ssh-keys-detailed>
-
----
 
 ## React
 
@@ -131,8 +123,6 @@
 3. Semantic UI React - инструмент для отображения семантики UI React: <https://react.semantic-ui.com/>
 4. Preact - облегчённая и усовершенствованная версия React: <https://preactjs.com/>
 
----
-
 ## NodeJS
 
 ### Документации
@@ -163,8 +153,6 @@
 
 1. Socket IO - библиотека для работы с WS: <https://socket.io>
 2. Jsonwebtoken - реализация веб-токенов JSON: <https://www.npmjs.com/package/jsonwebtoken>
-
----
 
 ## CI/CD
 

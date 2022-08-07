@@ -1,7 +1,5 @@
 # Эффекты интеррактивных элементов
 
----
-
 ## Cостояния
 
 Если дизайнер нарисовал кнопку, но забыл или не захотел обозначать на дизайне состояния (disable, active, hover),
@@ -15,14 +13,12 @@
 Иначе при нажатии на какой-то элемент ховер-стили будут залипать — телефон не знает, когда вы отводите палец в сторону.
 
 ```scss
-    @media (min-width: $big-tablet-window-width){
-      &:hover {
-        text-decoration: underline;
-      }
-    }
+@media (min-width: $big-tablet-window-width) {
+  &:hover {
+    text-decoration: underline;
+  }
+}
 ```
-
----
 
 ## Transitions
 
@@ -32,13 +28,13 @@
 ```scss
 .link {
   color: #ffffff;
-  text-decoration-color: #2E9AFF;
+  text-decoration-color: #2e9aff;
   /* Скорость исчезновения фонового цвета */
   transition: background-color 0.5s linear;
 
-  @media (min-width: $big-tablet-window-width){
+  @media (min-width: $big-tablet-window-width) {
     &:hover {
-      background-color: #2E9AFF;
+      background-color: #2e9aff;
       /* Скорость изменения фонового цвета на голубой */
       transition: background-color 0.1s linear;
     }
@@ -49,9 +45,9 @@
 Также, мы часто используем временные константы для таких эффектов, чтобы сохранять консистентность анимации:
 
 ```js
-export const DEFAULT_ELEMENT_DELAY = '0.1s';
-export const MEDIUM_ELEMENT_DELAY = '0.3s';
-export const LONG_ELEMENT_DELAY = '0.5s';
+export const DEFAULT_ELEMENT_DELAY = "0.1s";
+export const MEDIUM_ELEMENT_DELAY = "0.3s";
+export const LONG_ELEMENT_DELAY = "0.5s";
 ```
 
 ```scss
@@ -69,14 +65,15 @@ $longElementDelay: 0.5s;
 
 ```scss
 .element {
-    transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 ```
+
 👍**Хорошо:**
 
 ```scss
 .element {
-    transition: background-color 0.3s linear, color 0.3s linear,
+  transition: background-color 0.3s linear, color 0.3s linear;
 }
 ```
 
@@ -84,6 +81,7 @@ $longElementDelay: 0.5s;
 
 ```scss
 .element {
-    transition: background-color $mediumElementDelay linear, color $mediumElementDelay linear,
+  transition: background-color $mediumElementDelay linear, color
+      $mediumElementDelay linear;
 }
 ```

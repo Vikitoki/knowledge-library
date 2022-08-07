@@ -23,8 +23,6 @@ const { getSession, commitSession, destroySession } =
 export { getSession, commitSession, destroySession };
 ```
 
----
-
 ## RequireUserSession
 
 Функция, предоставляющая работу к сессии и "защищающая" роутинг от пользователей не прошедших авторизацию.
@@ -42,8 +40,6 @@ export async function requireUserSession(request: Request) {
   return session;
 }
 ```
-
----
 
 ## FetchWithAuth
 

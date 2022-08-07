@@ -10,8 +10,6 @@
 
 [Подробнее о принципах](solid/index.md)
 
----
-
 ## Используйте геттеры и сеттеры
 
 👎**Плохо:**
@@ -54,8 +52,6 @@ const bankAccount = new BankAccount();
 bankAccount.balance -= shoesPrice;
 let balance = bankAccount.balance;
 ```
-
----
 
 ## Используйте метод цепочки
 
