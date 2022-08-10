@@ -5,6 +5,7 @@
 - [Литература](literature/index.md)
 - [Технологии во фронтенде](technologies-in-the-frontend/index.md)
 - [Материалы для новичков](materials-for-junior/index.md)
+- [Мои доклады](my-lectures/index.md)
 
 # Вклад в документацию
 
