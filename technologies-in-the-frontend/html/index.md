@@ -1,4 +1,4 @@
 # HTML
 
 - [Готовые решения](ready-solutions/index.md)
-- [Теги](tags/index.md)
+- [Важная информация](important-information/index.md)
