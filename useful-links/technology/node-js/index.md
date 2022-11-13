@@ -5,11 +5,13 @@
 1. Отличный гайд по Node js: <https://habr.com/ru/company/ruvds/blog/428576/>
 2. Документация: <https://nodejs.org/en/docs/>
 
-## Контроль версий
+## Версионирование
 
 1. NVM - инструмент для контроля версий node js и переключения между ними: <https://github.com/coreybutler/nvm-windows>
 
-## Повседневные решения
+## NPM пакеты
+
+### Повседневные решения
 
 1. Json server - полный поддельный REST API с нулевым кодированием менее чем за 30 секунд: <https://www.npmjs.com/package/json-server>
 2. Concurrently - запуск нескольких команд одновременно: <https://www.npmjs.com/package/concurrently>
@@ -24,7 +26,6 @@
 11. minimist - инструмент для парсинга аргументов командной строки без всяких причудливых украшений: <https://www.npmjs.com/package/minimist>
 12. http-server - инструмент для запуска простого статического HTTP-сервера: <https://www.npmjs.com/package/http-server>
 
-## Интересные библиотеки и решения
+### Интересные библиотеки и решения
 
-1. Socket IO - библиотека для работы с WS: <https://socket.io>
-2. Jsonwebtoken - реализация веб-токенов JSON: <https://www.npmjs.com/package/jsonwebtoken>
+1. Jsonwebtoken - реализация веб-токенов JSON: <https://www.npmjs.com/package/jsonwebtoken>

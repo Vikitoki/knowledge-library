@@ -8,14 +8,15 @@
 4. Гуру рефакторига: <https://refactoring.guru/>
 5. HowProgrammingWorks: <https://github.com/HowProgrammingWorks>
 6. База знаний школы Hexlet: <https://github.com/Hexlet>
-7. HTTP Status Codes Glossary: <https://www.webfx.com/web-development/glossary/http-status-codes/>
-8. Контрольный список внешнего интерфейса: <https://frontendchecklist.io/>
-9. Patters dev: <https://www.patterns.dev/>
+7. База знаний flaviocopes: <https://flaviocopes.com/>
+8. HTTP Status Codes Glossary: <https://www.webfx.com/web-development/glossary/http-status-codes/>
+9. Контрольный список внешнего интерфейса: <https://frontendchecklist.io/>
+10. Patters dev: <https://www.patterns.dev/>
 
 ## Блоги
 
 1. Блог Александра Беспоясова: <https://bespoyasov.me/>
-2. Идеи для пет проектов: <https://github.com/florinpop17/app-ideas>
+2. Идеи пет-проектов: <https://github.com/florinpop17/app-ideas>
 3. Roadmaps для разработчиков: <https://roadmap.sh/>
 4. Сообщество разработчиков Вебстандарты: <https://web-standards.ru/>
 5. Сообщество разработчиков Flaviocopes: <https://flaviocopes.com/>
