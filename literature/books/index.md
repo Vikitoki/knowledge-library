@@ -9,7 +9,7 @@
 
 ## Менедженеринг
 
-1. Джедайские Техники | Максим Дорофеев: <https://forum.gipsyteam.ru/index.php?act=attach&type=post&id=559130>
+1. [Джедайские Техники | Максим Дорофеев](https://forum.gipsyteam.ru/index.php?act=attach&type=post&id=559130)
 2. Исскуство мыслить рационально. Шорткаты в математике и жизни | Маркус Дю Сотой
 3. Живая математика | Яков Перельман
 4. Как пасти котов. Наставление для программистов, руководящих другими программистами | Ханк Рейнвотер
@@ -17,13 +17,13 @@
 
 ## Доступность
 
-1. Руководство студии Артёма Лебедева: <https://guide.so-edinenie.org/rules>
+1. [Руководство по доступности от студии Артёма Лебедева](https://guide.so-edinenie.org/rules)
 
 ## Технологии
 
 ### JavaScript
 
-1. Выразительный JavaScript: <https://eloquentjavascript.net/>
+1. [Выразительный JavaScript](https://eloquentjavascript.net/)
 
 ### TypeScript
 
@@ -32,7 +32,7 @@
 
 ### Node JS
 
-1. PDF-версия руководства по Node.js: <https://habr.com/ru/company/ruvds/blog/428576/>
+1. [Руководства по Node.js](https://habr.com/ru/company/ruvds/blog/428576/)
 
 ## Прочее
 
