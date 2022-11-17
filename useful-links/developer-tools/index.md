@@ -24,7 +24,15 @@
 
 ## Расширения для браузеров
 
-TODO
+1. [Check My Links](https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf) - проверит ссылки, которое есть на вашей веб-странице и найдёт неработающие.
+2. [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+3. [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
+4. [Siteimprove Accessibility Checker](https://chrome.google.com/webstore/detail/siteimprove-accessibility/djcglbmbegflehmbfleechkjhmedcopn) - проверка по обеспечению доступности. веб-сайтов прямо в Google Chrome.
+5. [Wappalyzer - Technology profiler](https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg) - определит веб-технологии, используещиеся на странице.
+6. [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=ru) - добавляет кнопку панели инструментов с различными инструментами веб-разработчика.
+7. [Web Developer Checklist](https://chrome.google.com/webstore/detail/web-developer-checklist/iahamcpedabephpcgkeikbclmaljebjp) - анализирует любую веб-страницу на наличие нарушений лучших практик
+8. [Потрясающий скриншот и запись экрана](https://chrome.google.com/webstore/detail/awesome-screenshot-and-sc/nlipoenfbbikpbjkfpfillcgkoblgpmj?hl=ru&) - лучший инструмент для записи экрана, захвата экрана и аннотации для удаленной работы.
+9. [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) - делает JSON легко читаемым.
 
 ## Менеджеры для буфера обмена
 
