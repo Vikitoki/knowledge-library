@@ -1,6 +1,6 @@
 # SOLID
 
-## Single responsibility principle
+## S - Single responsibility principle
 
 👎**Плохо:**
 
@@ -36,7 +36,7 @@ class AutoDB {
 }
 ```
 
-## Open/closed principle
+## O - Open/closed principle
 
 👎**Плохо:**
 
@@ -104,7 +104,7 @@ const getPrice = (auto: Array<CarPrice>): string | void => {
 getPrice(shop);
 ```
 
-## Liskov substitution principle
+## L - Liskov substitution principle
 
 👎**Плохо:**
 
@@ -167,7 +167,7 @@ class Square implements Figure {
 }
 ```
 
-## Interface segregation principle
+## I - Interface segregation principle
 
 👎**Плохо:**
 
@@ -225,7 +225,7 @@ class Bmw implements BmwSet {
 }
 ```
 
-## Dependency inversion principle
+## D - Dependency inversion principle
 
 👎**Плохо:**
 

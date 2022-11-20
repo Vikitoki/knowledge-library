@@ -20,6 +20,10 @@
 3. [Roadmaps для разработчиков](https://roadmap.sh/>)
 4. [Сообщество разработчиков Вебстандарты](https://web-standards.ru/>)
 5. [Сообщество разработчиков Flaviocopes](https://flaviocopes.com/>)
+6. [AirBnB JavaScript](https://github.com/airbnb/javascript) + [Перевод](https://leonidlebedev.github.io/javascript-airbnb/)
+7. [AirBnB React](https://github.com/airbnb/javascript/tree/master/react) + [Перевод](https://leonidlebedev.github.io/javascript-airbnb/react/)
+8. [AirBnB CSS-in-JavaScript](https://github.com/airbnb/javascript/tree/master/react) + [Перевод](https://leonidlebedev.github.io/javascript-airbnb/css-in-javascript/)
+9. [AirBnB CSS / Sass Styleguide](https://github.com/airbnb/javascript/tree/master/react)
 
 ## Курсы
 

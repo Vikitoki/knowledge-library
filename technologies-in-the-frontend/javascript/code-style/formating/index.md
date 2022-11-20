@@ -1,39 +1,5 @@
 # Форматирование
 
-## Используйте один вариант именования
-
-👎**Плохо:**
-
-```javascript
-const DAYS_IN_WEEK = 7;
-const daysInMonth = 30;
-
-const songs = ["Back In Black", "Stairway to Heaven", "Hey Jude"];
-const Artists = ["ACDC", "Led Zeppelin", "The Beatles"];
-
-function eraseDatabase() {}
-function restore_database() {}
-
-class animal {}
-class Alpaca {}
-```
-
-👍**Good:**
-
-```javascript
-const DAYS_IN_WEEK = 7;
-const DAYS_IN_MONTH = 30;
-
-const songs = ["Back In Black", "Stairway to Heaven", "Hey Jude"];
-const artists = ["ACDC", "Led Zeppelin", "The Beatles"];
-
-function eraseDatabase() {}
-function restoreDatabase() {}
-
-class Animal {}
-class Alpaca {}
-```
-
 ## Коментируйте только код, содержащий сложную бизнес-логику
 
 👎**Плохо:**
@@ -58,7 +24,7 @@ function hashIt(data) {
 }
 ```
 
-👍**Good:**
+👍**Хорошо:**
 
 ```javascript
 function hashIt(data) {
@@ -73,23 +39,6 @@ function hashIt(data) {
     hash &= hash;
   }
 }
-```
-
-## Не комментируйте ненужный код
-
-👎**Плохо:**
-
-```javascript
-doStuff();
-// doOtherStuff();
-// doSomeMoreStuff();
-// doSoMuchStuff();
-```
-
-👍**Good:**
-
-```javascript
-doStuff();
 ```
 
 ## Никогда не ведите журнал комментариев
@@ -108,7 +57,7 @@ function combine(a, b) {
 }
 ```
 
-👍**Good:**
+👍**Хорошо:**
 
 ```javascript
 function combine(a, b) {
@@ -137,7 +86,7 @@ const actions = function () {
 };
 ```
 
-👍**Good:**
+👍**Хорошо:**
 
 ```javascript
 $scope.model = {
