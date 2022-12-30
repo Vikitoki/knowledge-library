@@ -4,7 +4,7 @@
 
 1. [MDN](https://developer.mozilla.org/)
 2. [Дока](https://doka.guide/)
-3. [Современный учебник JS](https://learn.javascript.ru/)
+3. [Learn JS](https://learn.javascript.ru/)
 4. [Гуру рефакторига](https://refactoring.guru/)
 5. [HowProgrammingWorks](https://github.com/HowProgrammingWorks)
 6. [База знаний школы Hexlet](https://github.com/Hexlet)
@@ -17,7 +17,7 @@
 
 1. [Блог Александра Беспоясова](https://bespoyasov.me/>)
 2. [Идеи пет-проектов](https://github.com/florinpop17/app-ideas>)
-3. [Roadmaps для разработчиков](https://roadmap.sh/>)
+3. [Roadmaps для разработчиков](https://roadmap.sh)
 4. [Сообщество разработчиков Вебстандарты](https://web-standards.ru/>)
 5. [Сообщество разработчиков Flaviocopes](https://flaviocopes.com/>)
 6. [AirBnB JavaScript](https://github.com/airbnb/javascript) + [Перевод](https://leonidlebedev.github.io/javascript-airbnb/)
