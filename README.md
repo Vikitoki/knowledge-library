@@ -6,6 +6,7 @@
 - [Технологии во фронтенде](technologies-in-the-frontend/index.md)
 - [Новичкам](for-junior/index.md)
 - [Мои доклады](my-lectures/index.md)
+- [Мыслишки](thoughts/index.md)
 
 # Вклад в документацию
 
