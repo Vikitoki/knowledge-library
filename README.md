@@ -2,8 +2,9 @@
 
 - [Всё для старта проекта](all-for-project/index.md)
 - [Полезные ссылки](useful-links/index.md)
+- [Концепции и определения](сoncepts-and-definitions/index.md)
 - [Литература](literature/index.md)
-- [Технологии во фронтенде](technologies-in-the-frontend/index.md)
+- [Технологии и языки](technologies-and-the-languages/index.md)
 - [Новичкам](for-junior/index.md)
 - [Мои доклады](my-lectures/index.md)
 - [Мыслишки](thoughts/index.md)
