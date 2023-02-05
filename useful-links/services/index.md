@@ -34,4 +34,3 @@
 ## Статистика
 
 1. [HTTP Archive](https://almanac.httparchive.org/ru/2021/) - ежегодный отчёт о состоянии веба.
-2. [State of JS](https://2021.stateofjs.com/ru-RU/) - ежегодный отчёт с графиками о состоянии экосистемы.

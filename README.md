@@ -7,7 +7,7 @@
 - [Технологии и языки](technologies-and-the-languages/index.md)
 - [Новичкам](for-junior/index.md)
 - [Мои доклады](my-lectures/index.md)
-- [Мыслишки](thoughts/index.md)
+- [Мысли](thoughts/index.md)
 
 # Вклад в документацию
 
