@@ -4,10 +4,11 @@
 - [Полезные ссылки](useful-links/index.md)
 - [Концепции и определения](сoncepts-and-definitions/index.md)
 - [Литература](literature/index.md)
-- [Технологии и языки](technologies-and-the-languages/index.md)
+- [Технологии](technologies/index.md)
 - [Новичкам](for-junior/index.md)
 - [Мои доклады](my-lectures/index.md)
 - [Мысли](thoughts/index.md)
+- [Прочее](other/index.md)
 
 # Вклад в документацию
 

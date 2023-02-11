@@ -33,6 +33,7 @@
 7. [Web Developer Checklist](https://chrome.google.com/webstore/detail/web-developer-checklist/iahamcpedabephpcgkeikbclmaljebjp) - анализирует любую веб-страницу на наличие нарушений лучших практик
 8. [Потрясающий скриншот и запись экрана](https://chrome.google.com/webstore/detail/awesome-screenshot-and-sc/nlipoenfbbikpbjkfpfillcgkoblgpmj?hl=ru&) - лучший инструмент для записи экрана, захвата экрана и аннотации для удаленной работы.
 9. [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) - делает JSON легко читаемым.
+10. [Allow CORS: Access-Control-Allow-Origin](https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf/related) - прокси, которая подставляет необходимые для обхода CORS заголовки, если они не были установлены сервером
 
 ## Менеджеры для буфера обмена
 

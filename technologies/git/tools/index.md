@@ -1,4 +1,4 @@
-# GIT
+# Инструменты
 
 ## Повседневные решения
 
@@ -8,4 +8,4 @@
 
 ## Методологии
 
-1. [gitflow]: https://habr.com/ru/post/106912/
+1. [Gitflow](https://habr.com/ru/post/106912/)
