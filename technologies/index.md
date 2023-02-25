@@ -15,7 +15,7 @@
 
 ## Языки
 
-- [JavaScript](javascript/index.md)
-- [TypeScript](typescript/index.md)
+- [JavaScript](java-script/index.md)
+- [TypeScript](type-script/index.md)
 - [HTML](html/index.md)
 - [CSS](css/index.md)

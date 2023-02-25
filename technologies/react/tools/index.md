@@ -34,15 +34,31 @@
 1. [React select](https://react-select.com/home)
 2. [React datepicker](https://reactdatepicker.com/)
 3. [React-input-mask](https://www.npmjs.com/package/react-input-mask) - библиотека для создание маски в input элементах.
-4. [React-error-boundary](https://www.npmjs.com/package/react-error-boundary) - простая и многоразовая оболочка,
+4. [React Skeleton](https://skeletonreact.com/)
+5. [Semantic UI React](https://react.semantic-ui.com/) - библиотека UI компонентов React с готовой и правильной семантикой.
+6. [React-modal-sheet](https://www.npmjs.com/package/react-modal-sheet?activeTab=readme) - Гибкий компонент нижнего листа для ваших приложений.
+
+### Анимация
+
+1. [React flip toolkit](https://github.com/aholachek/react-flip-toolkit)
+
+### Авторизация
+
+1. [React google login](https://www.npmjs.com/package/react-google-login)
+
+### Обработка ошибок
+
+1. [React-error-boundary](https://www.npmjs.com/package/react-error-boundary) - простая и многоразовая оболочка,
    которую можно использовать для отлова ошибок ваших компонентов, с последующей корректной обработкой.
-5. [React google login](https://www.npmjs.com/package/react-google-login)
-6. [React Skeleton](https://skeletonreact.com/)
-7. [Semantic UI React](https://react.semantic-ui.com/) - библиотека UI компонентов React с готовой и правильной семантикой.
+
+### Доступность
+
+1. [React-focus-lock](https://www.npmjs.com/package/react-focus-lock) - блокировка фокуса
 
 ### Роутинг
 
 1. [React router dom](https://v6.reactrouter.com/)
+2. [Next-usequerystate](https://www.npmjs.com/package/next-usequerystate)
 
 ### Формы
 

@@ -7,11 +7,19 @@
 3. [Learn JS](https://learn.javascript.ru/)
 4. [Гуру рефакторига](https://refactoring.guru/)
 5. [HowProgrammingWorks](https://github.com/HowProgrammingWorks)
-6. [База знаний школы Hexlet](https://github.com/Hexlet)
+6. [База знаний Hexlet](https://github.com/Hexlet)
 7. [База знаний flaviocopes](https://flaviocopes.com/)
 8. [HTTP Status Codes Glossary](https://www.webfx.com/web-development/glossary/http-status-codes/)
-9. [Контрольный список внешнего интерфейса](https://frontendchecklist.io/)
-10. [Patters dev](https://www.patterns.dev/)
+9. [Patters dev](https://www.patterns.dev/)
+10. [Документация компании Nine lines](https://github.com/ninelines-team/ninelines-docs)
+
+## Контроль качества
+
+1. [The Front-End Checklist](https://frontendchecklist.io/)
+
+## Статистика
+
+1. [Web Almanac](https://almanac.httparchive.org/ru/2021/) - ежегодный отчёт о состоянии веба.
 
 ## Репозитории
 
@@ -22,21 +30,20 @@
 5. [Javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
 6. [Un JS](https://unjs.io/) - независимая от фреймворка система для преобразования кода JavaScript, который может запускаться в любой среде.
 7. [Tan Stack](https://tanstack.com/) - качественное программное обеспечение с открытым исходным кодом для веб-разработчиков.
+8. [Fantasy Land Specification](https://github.com/fantasyland/fantasy-land#semigroup) - этот проект определяет совместимость общих алгебраических структур.
+9. [App Ideas Collection](https://github.com/florinpop17/app-ideas)
 
 ## Блоги
 
 1. [Блог Александра Беспоясова](https://bespoyasov.me/>)
-2. [Идеи пет-проектов](https://github.com/florinpop17/app-ideas>)
-3. [Roadmaps для разработчиков](https://roadmap.sh)
-4. [Сообщество разработчиков Вебстандарты](https://web-standards.ru/>)
-5. [Сообщество разработчиков Flaviocopes](https://flaviocopes.com/>)
+2. [Roadmaps для разработчиков](https://roadmap.sh)
+3. [Сообщество разработчиков Вебстандарты](https://web-standards.ru/>)
+4. [Сообщество разработчиков Flaviocopes](https://flaviocopes.com/>)
+5. [Solid Book by Vercel](https://solidbook.vercel.app/)
+6. [Манифест Реактивных Систем](https://www.reactivemanifesto.org/ru)
+7. [Статьи Веб-стандарты](https://web-standards.ru/articles/)
 
-## Курсы
+## Площадки с курсами
 
 1. [Coursehunter](https://coursehunter.net/) - пиратская платформа для просмотра курсов множества авторов.
 2. [Frontendmasters](<https://frontendmasters.com/)
-3. [Application Security](https://application.security/) - прекрасная платформа для обучения.безопасности приложений и программного обеспечения с помощью интерактивного обучения.
-
-## Прочее
-
-1. [Документация компании Nine lines](https://github.com/ninelines-team/ninelines-docs)
