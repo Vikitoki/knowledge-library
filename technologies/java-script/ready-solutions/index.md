@@ -32,230 +32,238 @@ function randomInteger(min, max) {
 
 1. Переадресация вызова выполняется с помощью apply:
 
-```js
-let wrapper = function (original, arguments) {
-  return original.apply(this, arguments);
-};
-```
+   ```js
+   let wrapper = function (original, arguments) {
+     return original.apply(this, arguments);
+   };
+   ```
 
 2. Декоратор "Шпион"
 
-Использование:
+   Использование:
 
-```js
-function work(a, b) {
-  alert(a + b); // произвольная функция или метод
-}
+   ```js
+   function work(a, b) {
+     alert(a + b); // произвольная функция или метод
+   }
 
-work = spy(work);
+   work = spy(work);
 
-work(1, 2); // 3
-work(4, 5); // 9
+   work(1, 2); // 3
+   work(4, 5); // 9
 
-for (let args of work.calls) {
-  alert("call:" + args.join()); // "call:1,2", "call:4,5"
-}
-```
+   for (let args of work.calls) {
+     alert("call:" + args.join()); // "call:1,2", "call:4,5"
+   }
+   ```
 
-Реализация:
+   Реализация:
 
-```js
-function spy(func) {
-  function wrapper(...args) {
-    wrapper.calls.push(args);
-    return func.apply(this, args);
-  }
+   ```js
+   function spy(func) {
+     function wrapper(...args) {
+       wrapper.calls.push(args);
+       return func.apply(this, args);
+     }
 
-  wrapper.calls = [];
+     wrapper.calls = [];
 
-  return wrapper;
-}
-```
+     return wrapper;
+   }
+   ```
 
 3. Декоратор "Задерживающий"
 
-Использование:
+   Использование:
 
-```js
-function f(x) {
-  alert(x);
-}
+   ```js
+   function f(x) {
+     alert(x);
+   }
 
-// создаём обёртки
-let f1000 = delay(f, 1000);
-let f1500 = delay(f, 1500);
+   // создаём обёртки
+   let f1000 = delay(f, 1000);
+   let f1500 = delay(f, 1500);
 
-f1000("test"); // показывает "test" после 1000 мс
-f1500("test"); // показывает "test" после 1500 мс
-```
+   f1000("test"); // показывает "test" после 1000 мс
+   f1500("test"); // показывает "test" после 1500 мс
+   ```
 
-Реализация:
+   Реализация:
 
-```js
-function delay(f, ms) {
-  return function () {
-    setTimeout(() => f.apply(this, arguments), ms);
-  };
-}
+   ```js
+   function delay(f, ms) {
+     return function () {
+       setTimeout(() => f.apply(this, arguments), ms);
+     };
+   }
 
-// Или
+   // Или
 
-function delay(f, ms) {
-  return function (...args) {
-    let savedThis = this; // сохраняем this в промежуточную переменную
+   function delay(f, ms) {
+     return function (...args) {
+       let savedThis = this; // сохраняем this в промежуточную переменную
 
-    setTimeout(function () {
-      f.apply(savedThis, args); // используем её
-    }, ms);
-  };
-}
-```
+       setTimeout(function () {
+         f.apply(savedThis, args); // используем её
+       }, ms);
+     };
+   }
+   ```
 
 4. Декоратор "debounce"
 
-Использование:
+   Использование:
 
-```js
-let a = debounce(alert, 100);
+   ```js
+   let a = debounce(alert, 100);
 
-a(1); // выполняется немедленно
-a(2); // проигнорирован
+   a(1); // выполняется немедленно
+   a(2); // проигнорирован
 
-let b = debounce(alert, 1000);
+   let b = debounce(alert, 1000);
 
-setTimeout(() => b(3), 100); // выполняется
-setTimeout(() => b(4), 1100); // проигнорирован (прошло только 900 мс от последнего вызова)
-setTimeout(() => b(5), 1500); // выполняется
-```
+   setTimeout(() => b(3), 100); // выполняется
+   setTimeout(() => b(4), 1100); // проигнорирован (прошло только 900 мс от последнего вызова)
+   setTimeout(() => b(5), 1500); // выполняется
+   ```
 
-Реализация:
+   Реализация:
 
-```js
-function debounce(f, ms) {
-  let isCooldown = false;
+   ```js
+   function debounce(f, ms) {
+     let isCooldown = false;
 
-  return function (...args) {
-    if (isCooldown) return;
+     return function (...args) {
+       if (isCooldown) return;
 
-    f.apply(this, args);
+       f.apply(this, args);
 
-    isCooldown = true;
+       isCooldown = true;
 
-    setTimeout(() => (isCooldown = false), ms);
-  };
-}
-```
+       setTimeout(() => (isCooldown = false), ms);
+     };
+   }
+   ```
 
 5. Декоратор "throttle"
 
-Использование:
+   Использование:
 
-```js
-function f(a) {
-  console.log(a);
-}
+   ```js
+   function f(a) {
+     console.log(a);
+   }
 
-// f1000 передаёт вызовы f максимум раз в 1000 мс
-let f1000 = throttle(f, 1000);
+   // f1000 передаёт вызовы f максимум раз в 1000 мс
+   let f1000 = throttle(f, 1000);
 
-f1000(1); // показывает 1
-f1000(2); // (ограничение, 1000 мс ещё нет)
-f1000(3); // (ограничение, 1000 мс ещё нет)
+   f1000(1); // показывает 1
+   f1000(2); // (ограничение, 1000 мс ещё нет)
+   f1000(3); // (ограничение, 1000 мс ещё нет)
 
-// когда 1000 мс истекли ...
-// ...выводим 3, промежуточное значение 2 было проигнорировано
-```
+   // когда 1000 мс истекли ...
+   // ...выводим 3, промежуточное значение 2 было проигнорировано
+   ```
 
-Реализация:
+   Реализация:
 
-```js
-function throttle(func, ms) {
-  let isThrottled = false;
-  let savedArgs = null;
-  let savedThis = null;
+   ```js
+   function throttle(func, ms) {
+     let isThrottled = false;
+     let savedArgs = null;
+     let savedThis = null;
 
-  function wrapper(...args) {
-    if (isThrottled) {
-      // (2)
-      savedArgs = args;
-      savedThis = this;
+     function wrapper(...args) {
+       if (isThrottled) {
+         // (2)
+         savedArgs = args;
+         savedThis = this;
 
-      return;
-    }
+         return;
+       }
 
-    func.apply(this, args); // (1)
+       func.apply(this, args); // (1)
 
-    isThrottled = true;
+       isThrottled = true;
 
-    setTimeout(function () {
-      isThrottled = false; // (3)
+       setTimeout(function () {
+         isThrottled = false; // (3)
 
-      if (savedArgs) {
-        wrapper.apply(savedThis, savedArgs);
+         if (savedArgs) {
+           wrapper.apply(savedThis, savedArgs);
 
-        savedArgs = null;
-        savedThis = null;
-      }
-    }, ms);
-  }
+           savedArgs = null;
+           savedThis = null;
+         }
+       }, ms);
+     }
 
-  return wrapper;
-}
-```
+     return wrapper;
+   }
+   ```
 
 ## Частичное применение
 
+Применяется, когда мы не хотим повторять один и тот же аргумент много раз. Например, если у нас есть функция `send(from, to)` и `from` всё время будет одинаков для нашей задачи, то мы можем создать частично применённую функцию и дальше работать с ней.
+
 1. С привязкой контекста
 
-Реализация:
+   Реализация:
 
-```js
-function mul(a, b) {
-  return a * b;
-}
-```
+   ```js
+   function mul(a, b) {
+     return a * b;
+   }
+   ```
 
-Использование:
+   Использование:
 
-```js
-let double = mul.bind(null, 2);
+   ```js
+   let double = mul.bind(null, 2);
 
-alert(double(3)); // = mul(2, 3) = 6
-alert(double(4)); // = mul(2, 4) = 8
-alert(double(5)); // = mul(2, 5) = 10
-```
+   alert(double(3)); // = mul(2, 3) = 6
+   alert(double(4)); // = mul(2, 4) = 8
+   alert(double(5)); // = mul(2, 5) = 10
+   ```
 
 2. Без привязки контекста
 
-Реализация:
+   Реализация:
+
+   ```js
+   function partial(func, ...argsBound) {
+     return function (...args) {
+       return func.call(this, ...argsBound, ...args);
+     };
+   }
+   ```
+
+   Использование:
+
+   ```js
+   let user = {
+     firstName: "John",
+     say(time, phrase) {
+       alert(`[${time}] ${this.firstName}: ${phrase}!`);
+     },
+   };
+
+   // добавляем частично применённый метод с фиксированным временем
+   user.sayNow = partial(
+     user.say,
+     new Date().getHours() + ":" + new Date().getMinutes()
+   );
+
+   user.sayNow("Hello"); // например, [10:00] John: Hello!
+   ```
+
+## Обработка исключений на уровне документа
 
 ```js
-function partial(func, ...argsBound) {
-  return function (...args) {
-    return func.call(this, ...argsBound, ...args);
-  };
-}
+window.addEventListener("unhandledrejection", function (event) {
+  // объект события имеет два специальных свойства:
+  alert(event.promise); // [object Promise] - промис, который сгенерировал ошибку
+  alert(event.reason); // Error: Ошибка! - объект ошибки, которая не была обработана
+});
 ```
-
-Использование:
-
-```js
-let user = {
-  firstName: "John",
-  say(time, phrase) {
-    alert(`[${time}] ${this.firstName}: ${phrase}!`);
-  },
-};
-
-// добавляем частично применённый метод с фиксированным временем
-user.sayNow = partial(
-  user.say,
-  new Date().getHours() + ":" + new Date().getMinutes()
-);
-
-user.sayNow("Hello"); // например, [10:00] John: Hello!
-```
-
-Когда применять:
-
-- частичное применение удобно, когда мы не хотим повторять один и тот же аргумент много раз. Например, если у нас есть функция send(from, to) и from всё время будет одинаков для нашей задачи, то мы можем создать частично применённую функцию и дальше работать с ней.
