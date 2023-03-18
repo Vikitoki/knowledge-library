@@ -3,6 +3,7 @@
 ## Повседневные решения
 
 1. [Regex101](https://regex101.com/) - площадка для тестирования корректности Reg exp проверок.
+2. [JSBI - pure-JavaScript BigInts](https://github.com/GoogleChromeLabs/jsbi)
 
 ## Профилирование
 

@@ -16,9 +16,10 @@
 
 ## Документации
 
-1. [React documentation](https://reactjs.org/docs)
-2. [React Bits](https://vasanthk.gitbooks.io/react-bits/)
-3. [Awesome React](https://github.com/enaqx/awesome-react)
+1. [React old documentation](https://reactjs.org/docs)
+2. [React new documentation](https://react.dev/)
+3. [React Bits](https://vasanthk.gitbooks.io/react-bits/)
+4. [Awesome React](https://github.com/enaqx/awesome-react)
 
 ### Фреймворки
 

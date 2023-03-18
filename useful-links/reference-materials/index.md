@@ -33,7 +33,7 @@
 8. [Fantasy Land Specification](https://github.com/fantasyland/fantasy-land#semigroup) - этот проект определяет совместимость общих алгебраических структур.
 9. [App Ideas Collection](https://github.com/florinpop17/app-ideas)
 
-## Блоги
+## Блоги и руководства
 
 1. [Блог Александра Беспоясова](https://bespoyasov.me/>)
 2. [Roadmaps для разработчиков](https://roadmap.sh)
@@ -42,6 +42,7 @@
 5. [Solid Book by Vercel](https://solidbook.vercel.app/)
 6. [Манифест Реактивных Систем](https://www.reactivemanifesto.org/ru)
 7. [Статьи Веб-стандарты](https://web-standards.ru/articles/)
+8. [Руководство по оформлению Markdown файлов](https://gist.github.com/Jekins/2bf2d0638163f1294637)
 
 ## Площадки с курсами
 
