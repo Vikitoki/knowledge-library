@@ -34,10 +34,11 @@
 
 1. [React select](https://react-select.com/home)
 2. [React datepicker](https://reactdatepicker.com/)
-3. [React-input-mask](https://www.npmjs.com/package/react-input-mask) - библиотека для создание маски в input элементах.
-4. [React Skeleton](https://skeletonreact.com/)
+3. [React input mask](https://www.npmjs.com/package/react-input-mask) - библиотека для создание маски в input элементах.
+4. [React skeleton](https://skeletonreact.com/)
 5. [Semantic UI React](https://react.semantic-ui.com/) - библиотека UI компонентов React с готовой и правильной семантикой.
-6. [React-modal-sheet](https://www.npmjs.com/package/react-modal-sheet?activeTab=readme) - Гибкий компонент нижнего листа для ваших приложений.
+6. [React modal sheet](https://www.npmjs.com/package/react-modal-sheet?activeTab=readme) - Гибкий компонент нижнего листа для ваших приложений.
+7. [React simple code editor](https://www.npmjs.com/package/react-simple-code-editor)
 
 ### Анимация
 
@@ -49,12 +50,12 @@
 
 ### Обработка ошибок
 
-1. [React-error-boundary](https://www.npmjs.com/package/react-error-boundary) - простая и многоразовая оболочка,
+1. [React error boundary](https://www.npmjs.com/package/react-error-boundary) - простая и многоразовая оболочка,
    которую можно использовать для отлова ошибок ваших компонентов, с последующей корректной обработкой.
 
 ### Доступность
 
-1. [React-focus-lock](https://www.npmjs.com/package/react-focus-lock) - блокировка фокуса
+1. [React focus lock](https://www.npmjs.com/package/react-focus-lock) - блокировка фокуса
 
 ### Роутинг
 
